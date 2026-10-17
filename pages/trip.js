@@ -15,6 +15,8 @@
   };
   var id = root.getAttribute('data-trip');
   var T = DETAIL[id];
+  // Preview either state with ?pfstatus=open or ?pfstatus=soldout (does not change the real status)
+  try { var pm = location.search.match(/[?&]pfstatus=(open|soldout)/); if (pm && T) T = Object.assign({}, T, { status: pm[1] }); } catch (e) {}
 
   var im = function (p, w) { return CFG.img + p + (p.indexOf('?') > -1 ? '' : '?format=' + (w || 1000) + 'w'); };
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); };
