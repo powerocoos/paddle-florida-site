@@ -25,3 +25,8 @@ As of Oct 16, 2026
 - Home v2 loader pinned to 2d79715. Home trip cards now link to the v2 trip pages. A native Squarespace Newsletter block ("Get trip updates", stores to Squarespace Email Subscribers, mailing list "Default", reCAPTCHA on, confirmation email off) sits in its own section at the bottom of Home v2; home.js moves it into the teal "Hear first when a season opens" section and hides the empty section. No test signup was submitted.
 - Trip pages' newsletter button links to /home-v2#pf-news in code at 1ebc3f9 or later; the six trip code blocks are still pinned to b964cde/697e96d (button goes to /#pf-news) until repinned at go-live.
 - At go-live: change card urls and trip CFG.news to the final slugs, and repin all loaders.
+
+## Our Team page (Oct 17, 2026)
+- New page "Our Team v2" (/our-team-v2, Not Linked), code block pinned to 57fd524 (pages/team.js, data in team/team.json). Featured Executive Director, staff and board cards with a bio pop-up (Esc and arrow keys work), ex-officio list, volunteer and contact buttons (/volunteers, /contact-us). Bios are the current site's text with spelling fixes only.
+- To confirm: Tom's surname spelling (site says McLaulin), Beth's photo is a distant kayak shot, Monelle's board title, organization names kept as on the current page, ex-officio descriptions.
+- SEO titles and descriptions for every page are drafted in docs/SEO.md (Project doc claude/website-seo-plan.md); apply at go-live after approval.
