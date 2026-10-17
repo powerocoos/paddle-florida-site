@@ -10,7 +10,7 @@
   var CFG = {
     img: 'https://images.squarespace-cdn.com/content/v1/5e975a9523a346285e07042f/',
     feed: window.PF_FEED_TRIP || '',          // e.g. https://.../public/trips/<id>.json (dashboard Worker, later)
-    news: '/#pf-news', phone: '(904) 874-4594', tel: '+19048744594', email: 'janice@paddleflorida.org',
+    news: '/home-v2#pf-news', phone: '(904) 874-4594', tel: '+19048744594', email: 'janice@paddleflorida.org',
     mail: 'Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080'
   };
   var id = root.getAttribute('data-trip');
