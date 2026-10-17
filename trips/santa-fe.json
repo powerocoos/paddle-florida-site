@@ -1,0 +1,241 @@
+{
+ "id": "santa-fe",
+ "status": "soldout",
+ "name": "Santa Fe Springs Celebration",
+ "dates": "Nov 2–8, 2026",
+ "start": "2026-11-02",
+ "end": "2026-11-08",
+ "place": "Ichetucknee Springs to the Santa Fe River",
+ "startLoc": "Ichetucknee Springs Campground",
+ "finishLoc": "Bowman's Landing",
+ "miles": "35 miles, plus an optional 6",
+ "capacity": 40,
+ "adult": 700,
+ "senior": 675,
+ "deadline": "Aug 4, 2026",
+ "level": "Beginner friendly",
+ "nights": "6, tent camping",
+ "meals": "Catered",
+ "hero": "4de16a29-8aab-4044-9cbd-c10940f90033/IcheSpringsPaddlers.jpg",
+ "included": "Camping, catered breakfasts and dinners, daily lunch snacks and shuttle. Optional cabins at Bowman's Landing (Nov 6 and 7) cost extra.",
+ "cabinsNote": "Rentals: Doug at Rum 138, 386-454-4247, who prefers 12 to 14 foot kayaks. Optional cabins at Bowman's Landing on Nov 6 and 7 are extra and booked separately.",
+ "outfitter": "Rum 138 (rentals)",
+ "overview": {
+  "title": "Our 100th trip, on the springs",
+  "text": "Crystal-clear Ichetucknee Springs, the Santa Fe River and the springs along it make this a celebration of the water Paddle Florida exists to protect. An extra day was added for our 100th multi-day trip, with a layover day at Bowman's Landing.",
+  "minis": [
+   [
+    "100th",
+    "Paddle Florida multi-day trip"
+   ],
+   [
+    "35 mi",
+    "Plus an optional 6"
+   ],
+   [
+    "7 days",
+    "Paddling and layover days, tent camping"
+   ]
+  ]
+ },
+ "days": [
+  {
+   "n": 1,
+   "date": "Mon, Nov 2",
+   "title": "Arrive and kick off",
+   "miles": 0,
+   "camp": "Ichetucknee Springs Campground",
+   "body": "Check in from 1 to 5 PM at Ichetucknee Springs Campground and set up your tent. Dinner is at 6 PM, followed by the kickoff program and the required trip orientation."
+  },
+  {
+   "n": 2,
+   "date": "Tue, Nov 3",
+   "title": "Ichetucknee Spring Run",
+   "miles": 6,
+   "camp": "Ichetucknee Springs Campground",
+   "body": "An up-and-back paddle on the Ichetucknee Spring Run from the park’s north entrance. Breakfast is at 7:30 AM and boats launch between 8:30 and 9. Dampiers Landing restaurant is nearby."
+  },
+  {
+   "n": 3,
+   "date": "Wed, Nov 4",
+   "title": "Ichetucknee to Lemons Memorial Park",
+   "miles": 12,
+   "camp": "Gilchrist Blue Springs State Park",
+   "body": "Paddle north to Lemons Memorial Park, then settle in at Gilchrist Blue Springs State Park for two nights."
+  },
+  {
+   "n": 4,
+   "date": "Thu, Nov 5",
+   "title": "High Springs to River Rise",
+   "mi": "7 to 13",
+   "miles": 7,
+   "optMiles": 13,
+   "camp": "Gilchrist Blue Springs State Park",
+   "body": "Launch at the High Springs boat ramp and paddle to River Rise, then back to camp at Gilchrist. Add distance if you want a longer day."
+  },
+  {
+   "n": 5,
+   "date": "Fri, Nov 6",
+   "title": "Gilchrist to Bowman's Landing",
+   "miles": 10,
+   "camp": "Bowman's Landing",
+   "body": "The last moving day, ending at Bowman's Landing. Optional cabins here are extra and booked separately."
+  },
+  {
+   "n": 6,
+   "date": "Sat, Nov 7",
+   "title": "Layover day",
+   "mi": "0 to 6",
+   "miles": 0,
+   "optMiles": 6,
+   "camp": "Bowman's Landing",
+   "body": "A free day. Relax, explore, or paddle up to 6 optional miles."
+  },
+  {
+   "n": 7,
+   "date": "Sun, Nov 8",
+   "title": "Breakfast and farewell",
+   "miles": 0,
+   "camp": "None. The trip ends.",
+   "body": "A hearty breakfast, then pack up and head home."
+  }
+ ],
+ "noChart": true,
+ "map": {
+  "note": "Schematic only, not to scale. Direction of travel is left to right.",
+  "points": [
+   {
+    "x": 70,
+    "y": 170,
+    "name": "Ichetucknee Springs",
+    "sub": "Days 1 and 2",
+    "day": 1
+   },
+   {
+    "x": 450,
+    "y": 95,
+    "name": "Gilchrist Blue Springs SP",
+    "sub": "Days 3 and 4",
+    "day": 3
+   },
+   {
+    "x": 830,
+    "y": 160,
+    "name": "Bowman's Landing",
+    "sub": "Days 5 to 7, finish",
+    "day": 5
+   }
+  ],
+  "segments": [
+   "12 mi",
+   "10 mi"
+  ]
+ },
+ "camps": [
+  {
+   "nights": "Days 1 and 2",
+   "name": "Ichetucknee Springs Campground",
+   "note": "Check-in, kickoff dinner and orientation."
+  },
+  {
+   "nights": "Days 3 and 4",
+   "name": "Gilchrist Blue Springs State Park",
+   "note": "Two nights, with a day on the Santa Fe River."
+  },
+  {
+   "nights": "Days 5 and 6",
+   "name": "Bowman's Landing",
+   "note": "Optional cabins for Nov 6 and 7, booked and paid separately."
+  }
+ ],
+ "boat": "Sit-in kayak, sit-on-top kayak or paddleboard, at least 12 feet. Beginners are welcome, with basic paddling and swimming skills.",
+ "baggage": "Two bags and 40 pounds in total. You carry them from your car to camp and back at the end. Label them with your name.",
+ "water": [
+  "Boat and paddle (rentals through Janice)",
+  "Non-inflatable Coast Guard-approved PFD, worn on the water",
+  "Bow line, 8 to 10 ft, secured so it cannot come loose",
+  "Grab loops at bow and stern",
+  "Throw rope",
+  "Whistle",
+  "Knife",
+  "Waterproof fire source",
+  "First aid kit in a waterproof cover",
+  "Repair kit (duct tape, sealant, waterproof tape)",
+  "Rain gear and a fleece or light jacket",
+  "Dry change of clothes in a waterproof bag",
+  "Closed-toe footwear (no flip-flops)",
+  "Sunscreen, hat and sunglasses",
+  "Water for the day and snacks (lunch is provided)",
+  "Dry bag or zip bag",
+  "Mask and snorkel (optional)",
+  "GPS (optional)"
+ ],
+ "land": [
+  "Tent",
+  "Sleeping bag, pad and pillow",
+  "Camp chair",
+  "Layers for 50 to 85 degrees F",
+  "Bathing suit (optional)",
+  "Headlamp or flashlight",
+  "Toiletries and medications",
+  "Something to read, music or earplugs",
+  "Camera"
+ ],
+ "faq": [
+  [
+   "What are evenings like?",
+   "Dinner at 6 PM and an evening program at 7 PM. Programs include authors, historians and environmental experts, and one night of live music."
+  ],
+  [
+   "How do I get back to my car?",
+   "Shuttle details for the end of the trip come in your confirmation email, sent 7 days before the trip with the waiver link."
+  ],
+  [
+   "Who can come?",
+   "Open to all skill levels. Paddlers under 18 must be with a parent or guardian, with no more than two children under 12 per adult. A signed waiver and emergency contact are required. No pets."
+  ],
+  [
+   "What are the rules on the water?",
+   "Wear a non-inflatable PFD at all times. People-powered boats only. Follow park rules, including the alcohol ban, and respect private property along the river."
+  ],
+  [
+   "Refunds and insurance",
+   "All payments are non-refundable, including for weather and water levels. Paddle Florida strongly recommends buying trip cancellation insurance from an outside provider."
+  ],
+  [
+   "Will I get a confirmation?",
+   "Yes. Final details are emailed 7 to 10 days before the trip."
+  ]
+ ],
+ "gallery": [
+  "4ee62842-c6a0-4c13-8aa1-1e812dfc6307/e525cc8a3d690e7092b5aa1cf22b2033.jpg",
+  "b4e259d9-1162-475d-9ea3-7acd482f6108/poe-springs-on-the-way-to-santa-fe-river.jpg",
+  "4de16a29-8aab-4044-9cbd-c10940f90033/IcheSpringsPaddlers.jpg",
+  "53760930-6546-4477-8529-20705842ab58/poe-springs-park.jpg",
+  "1e136a33-0dd4-4509-9584-d4ccc744bda0/20221026_142707.jpg",
+  "f89589de-4882-4e8d-8e2e-fab74de823c7/FB_IMG_1665190697383.jpg",
+  "54aca70d-00fb-4c65-a71d-a6cb4934e7aa/FB_IMG_1665190704449.jpg"
+ ],
+ "payments": [
+  {
+   "id": "credit",
+   "label": "Credit or debit card",
+   "sub": "Pay online by card",
+   "url": "https://form.jotform.com/222815944854162"
+  },
+  {
+   "id": "echeck",
+   "label": "E-check",
+   "sub": "Pay online from your bank account",
+   "url": "https://form.jotform.com/222815759925165"
+  },
+  {
+   "id": "mail",
+   "label": "Mailed check",
+   "sub": "Fill out the form, then mail your check",
+   "url": "https://form.jotform.com/261215552355150"
+  }
+ ],
+ "mailTo": "Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080",
+ "insuranceUrl": "/trip-cancellations"
+}

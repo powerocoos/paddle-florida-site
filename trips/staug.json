@@ -1,0 +1,193 @@
+{
+ "id": "staug",
+ "status": "open",
+ "name": "St. Augustine History Paddle",
+ "dates": "Apr 12–17, 2027",
+ "start": "2027-04-12",
+ "end": "2027-04-17",
+ "place": "Anastasia Island State Park, St. Augustine",
+ "startLoc": "Anastasia Island State Park",
+ "finishLoc": "Anastasia Island State Park",
+ "miles": "35 to 65 miles over 5 days",
+ "capacity": 40,
+ "adult": 675,
+ "senior": 650,
+ "deadline": "Jan 12, 2027",
+ "level": "Experienced paddlers",
+ "nights": "5, tent camping",
+ "meals": "Catered",
+ "hero": "655f16aa-6de8-4902-a197-e11d03006260/anastasia+beach+sunset.jpg",
+ "included": "Tent camping (shared sites with electricity and water), catered meals, river maps and evening programs.",
+ "cabinsNote": "Rentals: Burnham Guides (official outfitter), Mary, mary@burnhamguides.com, 305-240-0650. RV site supplement: email janice.a.hindson@gmail.com. Beach bungalows are booked with the park at 904-460-9111, at your own cost.",
+ "overview": {
+  "title": "Paddle the Historic Coast",
+  "text": "One base camp, a short stroll from the beach, and a different paddle each day: Salt Run, Princess Place Preserve, the Bridge of Lions and Castillo de San Marcos, the GTM Research Reserve and Fort Matanzas. Leave your tent up all week.",
+  "minis": [
+   [
+    "1 camp",
+    "Anastasia Island State Park, all week"
+   ],
+   [
+    "35 to 65 mi",
+    "Over 5 paddling days"
+   ],
+   [
+    "4 mi",
+    "Of pristine beach next to camp"
+   ]
+  ]
+ },
+ "days": [
+  {
+   "n": 1,
+   "date": "Mon, Apr 12",
+   "title": "Arrive at Anastasia Island",
+   "miles": 0,
+   "camp": "Anastasia Island State Park",
+   "body": "Check in from 3 to 5 PM and set up your tent at your shared campsite, which has electricity and water. Dinner is at 6 PM, followed by the trip overview and a talk from regional waterway advocates, then the campfire."
+  },
+  {
+   "n": 2,
+   "label": "Days 2 to 5",
+   "date": "Tue, Apr 13 to Fri, Apr 16",
+   "title": "Daily paddles on the Historic Coast",
+   "camp": "Anastasia Island State Park",
+   "body": "Breakfast at 7:30 AM, then a daily paddle highlighting the area. Depending on tide, weather and conditions, we return to base camp each evening. Dinner is at 6 PM, with a speaker or live music, then the campfire."
+  },
+  {
+   "n": 6,
+   "date": "Sat, Apr 17",
+   "title": "Breakfast and farewell",
+   "miles": 0,
+   "camp": "None. The trip ends.",
+   "body": "Breakfast at 7:30 AM, then strike camp. Tents and gear need to be down by 9:30 AM."
+  }
+ ],
+ "noChart": true,
+ "places": [
+  [
+   "Salt Run",
+   "Launch from camp and paddle past the St. Augustine Lighthouse, dunes and narrow waterways. Roseate spoonbills feed here."
+  ],
+  [
+   "Princess Place Preserve",
+   "A Flagler County park with the oldest homestead in the county and a 1886 hunting lodge, where the Matanzas River meets Pellicer Creek."
+  ],
+  [
+   "Castillo de San Marcos and the Bridge of Lions",
+   "The oldest masonry fort in the continental United States, seen from the water."
+  ],
+  [
+   "Guana River and the GTM Research Reserve",
+   "Manatees, sometimes dolphins, and lots of birds on a stretch of the Intracoastal Waterway that is easy to overlook."
+  ],
+  [
+   "Fort Matanzas",
+   "A coquina watchtower finished in 1742 to guard the southern approach to St. Augustine."
+  ],
+  [
+   "Matanzas Inlet",
+   "The last natural, undredged inlet on Florida’s Atlantic coast."
+  ]
+ ],
+ "placesTitle": "Some of the places we paddle",
+ "camps": [
+  {
+   "nights": "All nights",
+   "name": "Anastasia Island State Park",
+   "note": "Shared campsites with electricity and water, a short walk from the beach."
+  }
+ ],
+ "boat": "Sit-in kayak, 14 feet or longer, with a rudder or skeg and a spray skirt. You should know how to swim and have solid kayaking, rescue and wet-exit skills.",
+ "baggage": "Two bags and 40 pounds in total. You carry them from your car to camp and back at the end. Label them with your name.",
+ "water": [
+  "Boat and paddle (rentals through Janice)",
+  "Non-inflatable Coast Guard-approved PFD, worn on the water",
+  "Bow line, 8 to 10 ft, secured so it cannot come loose",
+  "Grab loops at bow and stern",
+  "Throw rope",
+  "Whistle",
+  "Knife",
+  "Waterproof fire source",
+  "First aid kit in a waterproof cover",
+  "Repair kit (duct tape, sealant, waterproof tape)",
+  "Rain gear and a fleece or light jacket",
+  "Dry change of clothes in a waterproof bag",
+  "Closed-toe footwear (no flip-flops)",
+  "Sunscreen, hat and sunglasses",
+  "Water for the day and snacks (lunch is provided)",
+  "Dry bag or zip bag",
+  "Mask and snorkel (optional)",
+  "GPS (optional)"
+ ],
+ "land": [
+  "Tent",
+  "Sleeping bag, pad and pillow",
+  "Camp chair",
+  "Layers for 50 to 85 degrees F",
+  "Bathing suit (optional)",
+  "Headlamp or flashlight",
+  "Toiletries and medications",
+  "Something to read, music or earplugs",
+  "Camera"
+ ],
+ "faq": [
+  [
+   "What are evenings like?",
+   "Dinner at 6 PM and an evening program at 7 PM. Programs include authors, historians and environmental experts, and one night of live music."
+  ],
+  [
+   "How do we get to the launches?",
+   "Paddlers self-shuttle to the launch each day."
+  ],
+  [
+   "Who can come?",
+   "Open to all skill levels. Paddlers under 18 must be with a parent or guardian, with no more than two children under 12 per adult. A signed waiver and emergency contact are required. No pets."
+  ],
+  [
+   "What are the rules on the water?",
+   "Wear a non-inflatable PFD at all times. People-powered boats only. Follow park rules, including the alcohol ban, and respect private property along the river."
+  ],
+  [
+   "Refunds and insurance",
+   "All payments are non-refundable, including for weather and water levels. Paddle Florida strongly recommends buying trip cancellation insurance from an outside provider."
+  ],
+  [
+   "Will I get a confirmation?",
+   "Yes. Final details are emailed 7 to 10 days before the trip."
+  ]
+ ],
+ "gallery": [
+  "8f334ab5-dd1d-4959-9293-8f63196dbcdd/anastasia+light+house.jpg",
+  "655f16aa-6de8-4902-a197-e11d03006260/anastasia+beach+sunset.jpg",
+  "a4757ea8-ba87-43d0-9778-6623604b2714/anastasia+marsh.jpg",
+  "38b3a838-0642-4161-bd22-671e8231e7d6/anastasia+sunset.jpg",
+  "41b1f64b-f65f-4ec9-a377-3279ca45ebff/anastasia+spoonbills.jpg",
+  "ded0d50e-189c-4ef2-a70e-e01f05361b87/2016-09-Princess-Place-CREEKVIEW-89.jpg",
+  "30b4cc35-e834-4565-ba79-cc3f1af2f01a/castillo.jpg",
+  "c3b4ba2d-818c-41ab-8c38-ee9d92319bd3/Guana.jpg",
+  "c1c60e96-5733-4c9d-b16e-85e7a8539886/fort+matanzas.jpg"
+ ],
+ "payments": [
+  {
+   "id": "credit",
+   "label": "Credit or debit card",
+   "sub": "Pay online by card",
+   "url": "https://form.jotform.com/221198434505152"
+  },
+  {
+   "id": "echeck",
+   "label": "E-check",
+   "sub": "Pay online from your bank account",
+   "url": "https://form.jotform.com/221197843351154"
+  },
+  {
+   "id": "mail",
+   "label": "Mailed check",
+   "sub": "Fill out the form, then mail your check",
+   "url": "https://form.jotform.com/261215737300145"
+  }
+ ],
+ "mailTo": "Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080",
+ "insuranceUrl": "/trip-cancellations"
+}

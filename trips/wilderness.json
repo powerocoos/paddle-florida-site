@@ -1,0 +1,255 @@
+{
+ "id": "wilderness",
+ "status": "open",
+ "name": "19th Annual Suwannee River Wilderness Trail",
+ "dates": "Mar 19–24, 2027",
+ "start": "2027-03-19",
+ "end": "2027-03-24",
+ "place": "Madison Blue Spring to Branford",
+ "startLoc": "Madison Blue Spring State Park, Lee",
+ "finishLoc": "Ivey Memorial Park, Branford",
+ "miles": "63 miles",
+ "capacity": null,
+ "adult": 600,
+ "senior": 575,
+ "deadline": "Dec 19, 2026",
+ "level": "Beginner friendly",
+ "nights": "5, parks and river camps",
+ "meals": "Catered",
+ "included": "Camping, catered breakfasts and dinners, daily lunch snacks and evening programs.",
+ "cabinsNote": "Rentals: Suwannee River Canoe Outpost (official outfitter), 386-364-4991.",
+ "overview": {
+  "title": "Our classic Suwannee journey",
+  "text": "Six days down the Suwannee River, from Madison Blue Spring to Branford, through springs, state parks and river camps with screened platforms, fans, electricity and hot showers.",
+  "minis": [
+   [
+    "63 mi",
+    "Madison Blue Spring to Branford"
+   ],
+   [
+    "18 mi",
+    "Longest day, with a springs lunch stop"
+   ],
+   [
+    "2 river camps",
+    "Screened platforms, fans, power and hot showers"
+   ]
+  ]
+ },
+ "days": [
+  {
+   "n": 1,
+   "date": "Fri, Mar 19",
+   "title": "Arrive and settle in",
+   "miles": 0,
+   "camp": "Suwannee River State Park",
+   "body": "Check in at Suwannee River State Park, then dinner, an evening program and the required trip orientation."
+  },
+  {
+   "n": 2,
+   "date": "Sat, Mar 20",
+   "title": "Madison Blue Spring to Suwannee River State Park",
+   "miles": 12,
+   "camp": "Suwannee River State Park",
+   "body": "Launch at Madison Blue Spring State Park and paddle 12 miles to Suwannee River State Park."
+  },
+  {
+   "n": 3,
+   "date": "Sun, Mar 21",
+   "title": "To Dowling Park River Camp",
+   "miles": 15,
+   "camp": "Dowling Park River Camp",
+   "body": "Fifteen miles to Dowling Park River Camp, with screened platforms, fans, electricity and hot showers."
+  },
+  {
+   "n": 4,
+   "date": "Mon, Mar 22",
+   "title": "To Lafayette Blue Springs State Park",
+   "miles": 10,
+   "camp": "Lafayette Blue Springs State Park",
+   "body": "A shorter 10-mile day ending at Lafayette Blue Springs State Park."
+  },
+  {
+   "n": 5,
+   "date": "Tue, Mar 23",
+   "title": "A day of springs to Adams Tract",
+   "miles": 18,
+   "lunch": "Peacock Slough River Camp, about 8.5 miles in",
+   "camp": "Adams Tract River Camp",
+   "body": "The longest day, 18 miles with a lunch stop at Peacock Slough River Camp, and a night at Adams Tract River Camp."
+  },
+  {
+   "n": 6,
+   "date": "Wed, Mar 24",
+   "title": "The final stretch to Branford",
+   "miles": 8,
+   "camp": "None. The trip ends.",
+   "body": "The last miles to Ivey Memorial Park in Branford, with a rest stop at Little River Springs."
+  }
+ ],
+ "map": {
+  "note": "Schematic only, not to scale. Direction of travel is left to right.",
+  "points": [
+   {
+    "x": 55,
+    "y": 165,
+    "name": "Madison Blue Spring SP",
+    "sub": "Start, Day 2",
+    "day": 2
+   },
+   {
+    "x": 215,
+    "y": 95,
+    "name": "Suwannee River SP",
+    "sub": "Nights 1 and 2",
+    "day": 1
+   },
+   {
+    "x": 375,
+    "y": 165,
+    "name": "Dowling Park River Camp",
+    "sub": "Day 3",
+    "day": 3
+   },
+   {
+    "x": 535,
+    "y": 95,
+    "name": "Lafayette Blue Springs SP",
+    "sub": "Day 4",
+    "day": 4
+   },
+   {
+    "x": 695,
+    "y": 165,
+    "name": "Adams Tract River Camp",
+    "sub": "Day 5",
+    "day": 5
+   },
+   {
+    "x": 850,
+    "y": 95,
+    "name": "Ivey Memorial Park",
+    "sub": "Finish, Day 6",
+    "day": 6
+   }
+  ],
+  "segments": [
+   "12 mi",
+   "15 mi",
+   "10 mi",
+   "18 mi",
+   "8 mi"
+  ]
+ },
+ "camps": [
+  {
+   "nights": "Nights 1 and 2",
+   "name": "Suwannee River State Park",
+   "note": "Tent camping."
+  },
+  {
+   "nights": "Night 3",
+   "name": "Dowling Park River Camp",
+   "note": "Screened platforms, fans, electricity and hot showers."
+  },
+  {
+   "nights": "Night 4",
+   "name": "Lafayette Blue Springs State Park",
+   "note": "Tent camping beside the spring."
+  },
+  {
+   "nights": "Night 5",
+   "name": "Adams Tract River Camp",
+   "note": "Screened platforms, fans, electricity and hot showers."
+  }
+ ],
+ "boat": "Sit-in kayak, sit-on-top kayak or paddleboard, at least 12 feet. Beginners are welcome, with basic paddling and swimming skills.",
+ "water": [
+  "Boat and paddle (rentals through Janice)",
+  "Non-inflatable Coast Guard-approved PFD, worn on the water",
+  "Bow line, 8 to 10 ft, secured so it cannot come loose",
+  "Grab loops at bow and stern",
+  "Throw rope",
+  "Whistle",
+  "Knife",
+  "Waterproof fire source",
+  "First aid kit in a waterproof cover",
+  "Repair kit (duct tape, sealant, waterproof tape)",
+  "Rain gear and a fleece or light jacket",
+  "Dry change of clothes in a waterproof bag",
+  "Closed-toe footwear (no flip-flops)",
+  "Sunscreen, hat and sunglasses",
+  "Water for the day and snacks (lunch is provided)",
+  "Dry bag or zip bag",
+  "Mask and snorkel (optional)",
+  "GPS (optional)"
+ ],
+ "land": [
+  "Tent",
+  "Sleeping bag, pad and pillow",
+  "Camp chair",
+  "Layers for 50 to 85 degrees F",
+  "Bathing suit (optional)",
+  "Headlamp or flashlight",
+  "Toiletries and medications",
+  "Something to read, music or earplugs",
+  "Camera"
+ ],
+ "faq": [
+  [
+   "What are evenings like?",
+   "Dinner at 6 PM and an evening program at 7 PM. Programs include authors, historians and environmental experts, and one night of live music."
+  ],
+  [
+   "Are shuttles offered?",
+   "Yes. Pre-trip and post-trip shuttle options are available. Check your confirmation email for times. One option involves being at the Shrine Club in Branford by 1 PM on March 20."
+  ],
+  [
+   "Who can come?",
+   "Open to all skill levels. Paddlers under 18 must be with a parent or guardian, with no more than two children under 12 per adult. A signed waiver and emergency contact are required. No pets."
+  ],
+  [
+   "What are the rules on the water?",
+   "Wear a non-inflatable PFD at all times. People-powered boats only. Follow park rules, including the alcohol ban, and respect private property along the river."
+  ],
+  [
+   "Refunds and insurance",
+   "All payments are non-refundable, including for weather and water levels. Paddle Florida strongly recommends buying trip cancellation insurance from an outside provider."
+  ],
+  [
+   "Will I get a confirmation?",
+   "Yes. Final details are emailed 7 to 10 days before the trip."
+  ]
+ ],
+ "gallery": [
+  "1596913326206-IZM0DE1ITIU0MO9LFT20/20191021_075212.jpg",
+  "1596913928134-7FUPKUM6FYXFREDOJ3S7/20181020_130657-min.jpg",
+  "1596914069076-QNEY02E4ZDLMHO5VBTYM/Suwanee%2Bday%2B4%2B01.jpeg",
+  "1596914333673-2DN90EHC0B456WUL5RIS/Suwanee%2Bday%2B5%2B03.jpeg",
+  "1596914336238-LMW377YT8WOKYI7BQ7YP/Suwanee%2Bday%2B5%2B02.jpeg",
+  "1596913081942-E18UA8PMVB1ESCW425CG/image-asset.jpeg",
+  "1596913704587-3E13AI9EAWUYAUHMU12V/image-asset.jpeg"
+ ],
+ "payments": [
+  {
+   "id": "credit",
+   "label": "Credit or debit card",
+   "sub": "Pay online by card",
+   "url": "https://form.jotform.com/221196862267160"
+  },
+  {
+   "id": "echeck",
+   "label": "E-check",
+   "sub": "Pay online from your bank account",
+   "url": "https://form.jotform.com/220956087734161"
+  },
+  {
+   "id": "mail",
+   "label": "Mailed check",
+   "sub": "Fill out the form, then mail your check",
+   "url": "https://form.jotform.com/261215165456152"
+  }
+ ],
+ "mailTo": "Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080",
+ "insuranceUrl": "/trip-cancellations"
+}

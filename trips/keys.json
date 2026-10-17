@@ -1,0 +1,206 @@
+{
+ "id": "keys",
+ "status": "soldout",
+ "name": "Florida Keys Challenge",
+ "dates": "Jan 18–24, 2027",
+ "start": "2027-01-18",
+ "end": "2027-01-24",
+ "place": "Big Pine Key",
+ "startLoc": "Seacamp Association, Big Pine Key",
+ "finishLoc": "Seacamp Association, Big Pine Key",
+ "miles": "35 to 70+ miles over 6 days",
+ "capacity": 40,
+ "adult": 1100,
+ "senior": 1075,
+ "deadline": "Oct 20, 2026",
+ "level": "Experienced sea kayakers",
+ "nights": "6, cabin housing",
+ "meals": "Catered",
+ "hero": "b29bfa78-3250-44cc-b825-d020b245f514/keys+-+beach+blue+water+paddle+.jpg",
+ "included": "Housing, catered meals and shuttles. No tent needed.",
+ "cabinsNote": "Rentals: Burnham Guides (official outfitter), Mary, mary@burnhamguides.com, 305-240-0650.",
+ "overview": {
+  "title": "One basecamp, a different paddle every day",
+  "text": "New this year: everyone stays in cabins at Seacamp on Big Pine Key, at Newfound Harbor, and paddles out from there. Each day you choose an easy, mid or long route, from mangrove-lined Coupon Bight to open-water crossings in the Content Keys.",
+  "minis": [
+   [
+    "6 days",
+    "Of paddling from one basecamp"
+   ],
+   [
+    "5 to 15 mi",
+    "Easy, mid and long choices each day"
+   ],
+   [
+    "0 tents",
+    "Housing, meals and shuttles included"
+   ]
+  ]
+ },
+ "days": [
+  {
+   "n": 1,
+   "date": "Mon, Jan 18",
+   "title": "Arrive and settle in",
+   "miles": 0,
+   "camp": "Seacamp Association",
+   "body": "Check in from 1 to 5 PM at Seacamp. Dinner is at 6 PM, followed by the trip overview and safety briefing."
+  },
+  {
+   "n": 2,
+   "label": "Days 2 to 6",
+   "date": "Tue, Jan 19 to Sat, Jan 23",
+   "title": "Paddler's choice",
+   "mi": "5 to 15",
+   "camp": "Seacamp Association",
+   "body": "Breakfast at 7:30 AM and a packed lunch, then pick the route that fits your day: easy, mid or long. See the paddle choices below. Everyone returns to the same basecamp each night."
+  },
+  {
+   "n": 7,
+   "date": "Sun, Jan 24",
+   "title": "Breakfast and farewell",
+   "miles": 0,
+   "camp": "None. The trip ends.",
+   "body": "Breakfast at 9 AM, then head home."
+  }
+ ],
+ "noChart": true,
+ "choicesTitle": "Paddle choices",
+ "choicesNote": "Each day offers routes at different distances. Pick the one that matches your energy, the wind and the tide.",
+ "choices": [
+  {
+   "name": "Picnic Island",
+   "level": "Easy",
+   "miles": "5 to 7"
+  },
+  {
+   "name": "Coupon Bight Aquatic Preserve",
+   "level": "Easy",
+   "miles": "5 to 7"
+  },
+  {
+   "name": "Little Swash Keys and Tarpon Belly Key",
+   "level": "Mid",
+   "miles": "About 10"
+  },
+  {
+   "name": "Big Torch and Little Torch Keys",
+   "level": "Mid",
+   "miles": "About 10"
+  },
+  {
+   "name": "Bahia Honda State Park",
+   "level": "Mid",
+   "miles": "About 10"
+  },
+  {
+   "name": "Ramrod Key circumnavigation",
+   "level": "Long",
+   "miles": "About 15"
+  },
+  {
+   "name": "Content Keys and Sawyer Key",
+   "level": "Long",
+   "miles": "About 15",
+   "note": "Includes about 12 miles of open water."
+  }
+ ],
+ "camps": [
+  {
+   "nights": "All nights",
+   "name": "Seacamp Association, Big Pine Key",
+   "note": "Cabin housing at Newfound Harbor. Meals are included."
+  }
+ ],
+ "boat": "Sit-in sea kayak, at least 15 feet, with a rudder or skeg and a spray skirt. You need solid kayaking, rescue, wet-exit and swimming skills.",
+ "water": [
+  "Non-inflatable Coast Guard-approved PFD, worn on the water",
+  "Bow line, 8 to 10 ft, secured so it cannot come loose",
+  "Grab loops at bow and stern",
+  "Throw rope",
+  "Whistle",
+  "Knife",
+  "Waterproof fire source",
+  "First aid kit in a waterproof cover",
+  "Repair kit (duct tape, sealant, waterproof tape)",
+  "Rain gear and a fleece or light jacket",
+  "Dry change of clothes in a waterproof bag",
+  "Closed-toe footwear (no flip-flops)",
+  "Sunscreen, hat and sunglasses",
+  "Water for the day and snacks (lunch is provided)",
+  "Dry bag or zip bag",
+  "Mask and snorkel (optional)",
+  "GPS (optional)",
+  "Spray skirt",
+  "Boat with rudder or skeg (rentals through Burnham Guides)"
+ ],
+ "land": [
+  "Layers for the weather",
+  "Bathing suit",
+  "Headlamp or flashlight",
+  "Toiletries and medications",
+  "Something to read, music or earplugs",
+  "Camera"
+ ],
+ "faq": [
+  [
+   "What are evenings like?",
+   "Dinner at 6 PM and an evening program at 7 PM. Programs include authors, historians and environmental experts, and one night of live music."
+  ],
+  [
+   "Do I need a tent?",
+   "No. Housing, meals and shuttles are included in the trip fee."
+  ],
+  [
+   "Is this trip for beginners?",
+   "No. This trip is for experienced sea kayakers, with solid kayaking, rescue, wet-exit and swimming skills. Contact Janice if you are unsure."
+  ],
+  [
+   "Who can come?",
+   "Open to all skill levels. Paddlers under 18 must be with a parent or guardian, with no more than two children under 12 per adult. A signed waiver and emergency contact are required. No pets."
+  ],
+  [
+   "What are the rules on the water?",
+   "Wear a non-inflatable PFD at all times. People-powered boats only. Follow park rules, including the alcohol ban, and respect private property along the river."
+  ],
+  [
+   "Refunds and insurance",
+   "All payments are non-refundable, including for weather and water levels. Paddle Florida strongly recommends buying trip cancellation insurance from an outside provider."
+  ],
+  [
+   "Will I get a confirmation?",
+   "Yes. Final details are emailed 7 to 10 days before the trip."
+  ]
+ ],
+ "gallery": [
+  "fe914543-e957-4f18-bdcf-f9ec8af23de0/TP+24+Keys+1.jpg",
+  "061a2c3b-ece2-461b-9fef-ba44680b1752/keys+ariel+beach.jpg",
+  "903e8e9d-a3b7-498e-bb22-bb9fe2b33364/GCB+day+3+beach.jpg",
+  "5031d2f0-60eb-4ba6-8bf6-6091b4ea4a9f/seacamp+assoc.jpg",
+  "e7911c94-96b9-42a5-a8e9-30da0f5c517f/Screenshot_20221123_220629_Facebook.jpg",
+  "80957f00-44ac-4647-a8e8-81fa669b70e1/FB_IMG_1669259628628.jpg",
+  "5ecd2735-2b04-442e-8662-2cd4da5b8ad0/FB_IMG_1669259761823.jpg"
+ ],
+ "payments": [
+  {
+   "id": "credit",
+   "label": "Credit or debit card",
+   "sub": "Pay online by card",
+   "url": "https://form.jotform.com/221198393243155"
+  },
+  {
+   "id": "echeck",
+   "label": "E-check",
+   "sub": "Pay online from your bank account",
+   "url": "https://form.jotform.com/221198301755152"
+  },
+  {
+   "id": "mail",
+   "label": "Mailed check",
+   "sub": "Fill out the form, then mail your check",
+   "url": "https://form.jotform.com/261215847479164"
+  }
+ ],
+ "mailTo": "Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080",
+ "insuranceUrl": "/trip-cancellations"
+}

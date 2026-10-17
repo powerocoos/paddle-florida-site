@@ -1,0 +1,162 @@
+{
+ "id": "festival",
+ "status": "open",
+ "name": "Suwannee River Paddling Festival",
+ "dates": "Mar 19–21, 2027",
+ "start": "2027-03-19",
+ "end": "2027-03-21",
+ "place": "Suwannee River",
+ "startLoc": "Suwannee River State Park",
+ "finishLoc": "Advent Christian Village, Dowling Park",
+ "miles": "24 miles over two days",
+ "capacity": null,
+ "adult": 300,
+ "senior": null,
+ "deadline": "Dec 20, 2026",
+ "level": "Beginner friendly",
+ "nights": "2, tent camping",
+ "meals": "Catered",
+ "hero": "1cb4511a-d7d8-4b4f-98ff-9e0ccca9affc/FB_IMG_1697418751873.jpg",
+ "included": "Camping, catered breakfasts and dinners, daily lunch snacks, shuttles, river maps and evening entertainment.",
+ "cabinsNote": "Rentals: Suwannee River Canoe Outpost (official outfitter), 386-364-4991.",
+ "overview": {
+  "title": "A weekend on the Suwannee",
+  "text": "Two days on the river, a benefit concert on Saturday night and a local expert on the water and wildlife around you. This is the easiest way to try a Paddle Florida trip.",
+  "minis": [
+   [
+    "24 mi",
+    "Over two paddling days"
+   ],
+   [
+    "2 nights",
+    "Tent camping at Suwannee River State Park"
+   ],
+   [
+    "1 concert",
+    "Saturday benefit concert"
+   ]
+  ]
+ },
+ "days": [
+  {
+   "n": 1,
+   "date": "Fri, Mar 19",
+   "title": "Arrive and settle in",
+   "miles": 0,
+   "camp": "Suwannee River State Park",
+   "body": "Check in from 1 to 5 PM at Suwannee River State Park. Dinner is at 6 PM, followed by an evening program and the required trip orientation."
+  },
+  {
+   "n": 2,
+   "date": "Sat, Mar 20",
+   "title": "Madison Blue Spring to Suwannee River State Park",
+   "miles": 12,
+   "camp": "Suwannee River State Park",
+   "body": "Launch at Madison Blue Spring State Park and paddle 12 miles down the Withlacoochee to the Suwannee River. Tonight is the benefit concert."
+  },
+  {
+   "n": 3,
+   "date": "Sun, Mar 21",
+   "title": "Suwannee River State Park to Advent Christian Village",
+   "miles": 12,
+   "camp": "None. The trip ends.",
+   "body": "The last 12 miles, ending at Advent Christian Village in Dowling Park."
+  }
+ ],
+ "camps": [
+  {
+   "nights": "Fri and Sat",
+   "name": "Suwannee River State Park",
+   "note": "Tent camping, with evening entertainment on Saturday."
+  }
+ ],
+ "boat": "Sit-in kayak, sit-on-top kayak or paddleboard, at least 12 feet. Beginners are welcome, with basic paddling and swimming skills.",
+ "baggage": "Keep your luggage in your tent.",
+ "water": [
+  "Boat and paddle (rentals through Janice)",
+  "Non-inflatable Coast Guard-approved PFD, worn on the water",
+  "Bow line, 8 to 10 ft, secured so it cannot come loose",
+  "Grab loops at bow and stern",
+  "Throw rope",
+  "Whistle",
+  "Knife",
+  "Waterproof fire source",
+  "First aid kit in a waterproof cover",
+  "Repair kit (duct tape, sealant, waterproof tape)",
+  "Rain gear and a fleece or light jacket",
+  "Dry change of clothes in a waterproof bag",
+  "Closed-toe footwear (no flip-flops)",
+  "Sunscreen, hat and sunglasses",
+  "Water for the day and snacks (lunch is provided)",
+  "Dry bag or zip bag",
+  "Mask and snorkel (optional)",
+  "GPS (optional)"
+ ],
+ "land": [
+  "Tent",
+  "Sleeping bag, pad and pillow",
+  "Camp chair",
+  "Layers for 50 to 85 degrees F",
+  "Bathing suit (optional)",
+  "Headlamp or flashlight",
+  "Toiletries and medications",
+  "Something to read, music or earplugs",
+  "Camera"
+ ],
+ "faq": [
+  [
+   "What are evenings like?",
+   "Dinner at 6 PM and an evening program at 7 PM. Programs include authors, historians and environmental experts, and one night of live music."
+  ],
+  [
+   "How do I get back to my car?",
+   "Shuttles are included in the trip fee. Details are in your confirmation email."
+  ],
+  [
+   "Who can come?",
+   "Open to all skill levels. Paddlers under 18 must be with a parent or guardian, with no more than two children under 12 per adult. A signed waiver and emergency contact are required. No pets."
+  ],
+  [
+   "What are the rules on the water?",
+   "Wear a non-inflatable PFD at all times. People-powered boats only. Follow park rules, including the alcohol ban, and respect private property along the river."
+  ],
+  [
+   "Refunds and insurance",
+   "All payments are non-refundable, including for weather and water levels. Paddle Florida strongly recommends buying trip cancellation insurance from an outside provider."
+  ],
+  [
+   "Will I get a confirmation?",
+   "Yes. Final details are emailed 7 to 10 days before the trip."
+  ]
+ ],
+ "gallery": [
+  "1622053065289-FY1P6HRUXSWTDUHB14WZ/1587677955.jpg",
+  "1619671210494-KK5WQEQJCRFTYC71CP7T/1605310176.jpeg",
+  "1622229534485-FERTC7DE41KO7AXWI1ET/1587678010.jpeg",
+  "1cb4511a-d7d8-4b4f-98ff-9e0ccca9affc/FB_IMG_1697418751873.jpg",
+  "1622229635924-PZ4VQW6ENAX0BIJIC8U5/1587677907.jpeg",
+  "1622229701359-GNM20HRWBYLQKBM64NIY/1587677881.jpeg"
+ ],
+ "payments": [
+  {
+   "id": "credit",
+   "label": "Credit or debit card",
+   "sub": "Pay online by card",
+   "url": "https://form.jotform.com/221197614892160"
+  },
+  {
+   "id": "echeck",
+   "label": "E-check",
+   "sub": "Pay online from your bank account",
+   "url": "https://form.jotform.com/221198226272152"
+  },
+  {
+   "id": "mail",
+   "label": "Mailed check",
+   "sub": "Fill out the form, then mail your check",
+   "url": "https://form.jotform.com/261215191411142"
+  }
+ ],
+ "mailTo": "Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080",
+ "insuranceUrl": "/trip-cancellations"
+}

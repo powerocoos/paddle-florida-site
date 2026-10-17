@@ -274,5 +274,6 @@
  ],
  "mailTo": "Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080",
  "insuranceUrl": "/trip-cancellations",
- "outfitterUrl": "https://www.blackwaterjoescanoes.com/"
+ "outfitterUrl": "https://www.blackwaterjoescanoes.com/",
+ "outfitterLabel": "Blackwater Joe’s"
 }
