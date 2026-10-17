@@ -1,0 +1,107 @@
+{
+ "intro": {
+  "title": "The people behind Paddle Florida",
+  "text": "A small staff, a working board and volunteers who love Florida’s waters. Meet the people who plan every trip, haul every bag and speak up for every river."
+ },
+ "people": [
+  {
+   "id": "janice",
+   "group": "staff",
+   "name": "Janice Hindson",
+   "role": "Executive Director",
+   "photo": "23cf415d-49f8-437c-809d-c580825759ff/PF+Janice.jpg",
+   "pos": "50% 25%",
+   "feature": true,
+   "line": "Former Coast Guard search and rescue, and an ACA Level 3 coastal kayaking instructor.",
+   "bio": "Janice Hindson is Paddle Florida’s Executive Director. She lives in St. Augustine, Florida and was born and raised near Manchester, England. Her love of the water began while volunteering with her mother for the Royal National Lifeboats. After moving to the states at age eleven, she eventually served in the U.S. Coast Guard, doing search and rescue missions, mostly in the Great Lakes region. She is an ACA Level 3: Coastal Kayaking Instructor and enjoys multi-day self-contained kayak and paddleboard expeditions, mostly on Florida’s rivers and coastal areas, and sometimes around the world. With her BSBA and MBA in hand, she spent 30 years coaching and assisting businesses, including working with non-profits to create strategic plans and raise forgivable debt. She is also a certified support group facilitator and co-chairs the NAMI Family Support Group. Janice has served on various boards including NHS and is the Board Chair of Florida Society for Ethical Eco-tourism.",
+   "feat": "Born near Manchester, England, Janice grew up volunteering with the Royal National Lifeboats, served in the U.S. Coast Guard on search and rescue missions, and now leads Paddle Florida from St. Augustine."
+  },
+  {
+   "id": "guerry",
+   "group": "staff",
+   "name": "Guerry Bradley",
+   "role": "Gear Transport Manager",
+   "photo": "5ec83c76-a391-4432-a239-2a1c1b0fbe28/guerry_3.jpg",
+   "pos": "50% 20%",
+   "line": "A firefighter and EMT who has been with us since our first trip in 2008.",
+   "bio": "Guerry Bradley, Gear Transport Manager, whose day job is as a firefighter/EMT in St. Augustine, has been a part of the Paddle Florida family since our first trip in March, 2008. Since that time, Guerry has volunteered for many trips and is known as a key player around the campfire each night, as his jokes entertain the rest of the group. Guerry is an excellent craftsman and is known for the beautiful raised planters he builds. He also leads SUP and kayak trips around North Florida. Guerry has been a featured speaker on several media outlets as “Vegan Firefighter”."
+  },
+  {
+   "id": "john",
+   "group": "staff",
+   "name": "John Courtright",
+   "role": "Gear Transport Manager",
+   "photo": "5e9ddb6f-03d1-47b4-97ff-146b6fcff89d/john+court.jpeg",
+   "pos": "50% 20%",
+   "line": "Retired Miami-Dade paramedic and firefighter, now a trail angel and 10,000 Islands camper.",
+   "bio": "John Courtright, Gear Transport Manager, grew up in Miami, a great place to ignite his love of the water, and spent lots of time surfing the coast. In November 2009 he retired from Miami-Dade Fire Rescue after serving 30 years as a paramedic/firefighter. Retirement gave John the ability to pursue many outdoor passions. Living on the Gulf coast in Naples, kayaking became a must-do activity. He can be found paddling with local clubs, camping in the 10,000 Islands or exploring northern rivers. In addition to paddling, John has become involved in several environmentally focused organizations: South Florida Panther Wildlife Refuge, CREW Land and Water Trust, and most recently Florida Paddling Trails Association as a trail angel."
+  },
+  {
+   "id": "tom",
+   "group": "staff",
+   "name": "Tom McLaulin",
+   "role": "Gear Transport Manager",
+   "photo": "e67bca0f-d672-49aa-8a94-7b44a0d6b4d7/tom+mc.jpg",
+   "pos": "50% 20%",
+   "line": "Founding member of the Florida Paddling Trails Association.",
+   "bio": "Tom McLaulin, Gear Transport Manager, is a founding member of the Florida Paddling Trails Association and serves as their Blueway Coordinator. Tom spent his career in logistics and enjoys paddling, fishing and other water activities."
+  },
+  {
+   "id": "shirley",
+   "group": "staff",
+   "name": "Shirley Kasser Creech",
+   "role": "Operations Specialist and Trip Leader",
+   "photo": "8c325b59-d04f-4faa-bb54-ee0a1e584d5e/shirley+photos.JPG",
+   "pos": "50% 25%",
+   "line": "Studies Gulf fisheries by day and leads hikes and paddles in her free time.",
+   "bio": "Shirley Kasser Creech, Operations Specialist and Trip Leader, grew up playing in the creeks and bayous of rural Mississippi. Her love of wilderness and water is deeply embedded in her soul. When she moved to Florida many years ago, she became fascinated with the ecology and geology of the amazing wild places of Florida. Shirley volunteers her time to trail maintenance for the Florida National Scenic Trail, as well as leading many hikes and paddles. Any day in the woods or on the water is a good day, and being able to help others enjoy and love our beautiful wild places is better than ice cream! For her day job, Shirley uses her Bachelor’s degree in Computer Information Systems from the University of West Florida to support data collection and analysis of fisheries stocks in the Gulf of Mexico. Her spare time is spent taking grandchildren on wild adventures, highlighted by mud, bug bites and squeals of joy."
+  },
+  {
+   "id": "beth",
+   "group": "board",
+   "name": "Beth Courtright",
+   "role": "Board President",
+   "photo": "a611d5eb-88c4-4976-9861-baffb9f66cc8/20230217_135325.jpg",
+   "pos": "50% 50%",
+   "line": "Hooked on Paddle Florida since her first trip, on the Ochlockonee River.",
+   "bio": "Beth grew up in Massachusetts and moved to Florida after completing a BA in Psychology and an AD in Nursing. She opted to retire at the same time as her husband, so that they could spend time together. A love of the outdoors started when she was a Girl Scout. Always ready for camping, kayaking and exploring, she was told by a kayaking friend to take a Paddle Florida trip. Since her first trip on the Ochlockonee River she was hooked. Along with her husband, she volunteers for many worthy environmental organizations, including South Florida Panther Wildlife Refuge, CREW Land and Water Trust, and Florida Paddling Trails Association."
+  },
+  {
+   "id": "stephen",
+   "group": "board",
+   "name": "Stephen Holland",
+   "role": "Board Vice President",
+   "photo": "cd50a0c1-023b-42a5-be77-8ea0c5cf9829/steve.jpg",
+   "pos": "50% 20%",
+   "line": "Emeritus professor of tourism and recreation at the University of Florida.",
+   "bio": "Stephen Holland is an Emeritus Professor in the Department of Tourism, Recreation, and Sports Management at the University of Florida, where he taught for 30 years. For six years he served on the Natural North Florida Tourism Task Force, planning and promoting rural tourism in 16 North Florida counties. He is past president and current board member for Florida Defenders of the Environment. His academic interests include park management and rural tourism development, eco-tourism and water-based recreation, and he has published over 55 journal articles on these topics. He worked as a Park Ranger for the National Park Service in 3 national park areas. He has led six international courses on ecotourism and sustainable development, two in Australia and four in New Zealand, which included water-based activities. He also led week-long courses at Great Smoky Mountain National Park and Land-between-the-Lakes National Forest for 17 years. He lives and boats on a lake in North Florida and also kayaks in the Adirondacks of New York state."
+  },
+  {
+   "id": "debra",
+   "group": "board",
+   "name": "Debra Akin",
+   "role": "Board Treasurer",
+   "photo": "f4e4736d-c37a-41bb-aaae-b53f01db3238/my+team+deb.jpg",
+   "pos": "50% 20%",
+   "line": "Cancer researcher, Master Naturalist and Wilderness First Responder.",
+   "bio": "Debra Akin was born and raised in south Florida and started kayaking in the mountains of North Carolina under the dubious tutelage of an older brother. After surviving two summers of his combat whitewater kayaking, she enrolled in the University of Florida and started exploring the calm, peaceful waters and springs of north Florida, and basically never left. With a couple of graduate degrees in Entomology, Microbiology and Epidemiology under her belt, Deb works in UF’s College of Medicine in the area of drug discovery and cancer research. During the summer months, she guides Chicago teenagers in the Boundary Waters Canoe Area for the non-profits Big City Mountaineers and Chicago Voyagers. She is a Master Naturalist, Wilderness First Responder and Treasurer of the Florida Paddling Trails Association. Other interests include weaving, canoe racing and building wood kayaks."
+  },
+  {
+   "id": "monelle",
+   "group": "board",
+   "name": "Monelle McKay",
+   "role": "Board Member",
+   "photo": "75358d06-f912-4d05-9ae7-6b30c7d8e0f1/Monelle+McKay.jpeg",
+   "pos": "50% 20%",
+   "line": "Retired software leader who volunteers with Master Gardeners and the Florida Trail Association.",
+   "bio": "Retired from a 30+ year career in software development in 2021, Monelle stays busy being active and volunteering with the UF/IFAS Master Gardeners (class of 2022), Prairie Creek Conservation Cemetery and the Florida Trail Association. Having worked in the software development industry for 30+ years, Monelle has extensive experience working with diverse teams, challenging customer environments and creative problem solving. Key functions included analysis, project management, executive leadership and strategic planning. Monelle enjoys nature-based volunteering opportunities that allow her to utilize her skills and past experience to support the nonprofit’s mission."
+  }
+ ],
+ "exofficio": [
+  "Nickie Kortus",
+  "Heather Obara",
+  "Lars Andersen",
+  "Donald Forgione",
+  "Farley Doucette"
+ ]
+}
