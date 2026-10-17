@@ -1,0 +1,8 @@
+# Paddle Florida website redesign: project notes
+As of Oct 16, 2026
+- Repo: https://github.com/powerocoos/paddle-florida-site (PUBLIC, chosen by Xavier for simplicity; no personal data ever goes in it). Layout: pages/ (page code, *.src.js built to *.js by build.py), trips/trips.json (trip data), shared/.
+- Home v2 (Squarespace, Not Linked): one code block holds a loader pulling pages/home.js from jsDelivr pinned to commit 6990b14. Renders hero (rotating photos), trip finder (filters, no wait list), "what a supported trip means", raffle/donate conversion section, newsletter section, videos, gallery, mission. Previewed in the editor and working. NOT live.
+- Wait list removed everywhere in v2: sold-out cards say "See the trip" and point to the newsletter signup.
+- Donate facts (from live site): Qgiv raffle page secure.qgiv.com/for/kpr/event/prthpfw/, $3,200 kayak package (Current Designs Vision 130 + Werner Shuna Hooked paddle), drawing Mar 21 2027 at Suwannee River State Park, winner need not be present, pickup in St. Augustine. Shirt on Bonfire. FEIN 27-4628150.
+- To do next: add a native Squarespace newsletter block under the "Hear first" heading (id pf-news) and confirm it has a storage list (the current home block shows "needs a storage option"); partners section; first-timer guide; trip pages (Blackwater template), then dashboard publishing (trips.json -> D1 -> public PII-free JSON feed read by the pages via window.PF_FEED).
+- Roll-out: Home v2, then trip pages (each as unlinked v2), then other pages in batches. Go-live per page only after approval: rename old slug -old and hide from search; keep as backup.
