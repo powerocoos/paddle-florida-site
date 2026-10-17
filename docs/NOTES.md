@@ -30,3 +30,10 @@ As of Oct 16, 2026
 - New page "Our Team v2" (/our-team-v2, Not Linked), code block pinned to 57fd524 (pages/team.js, data in team/team.json). Featured Executive Director, staff and board cards with a bio pop-up (Esc and arrow keys work), ex-officio list, volunteer and contact buttons (/volunteers, /contact-us). Bios are the current site's text with spelling fixes only.
 - To confirm: Tom's surname spelling (site says McLaulin), Beth's photo is a distant kayak shot, Monelle's board title, organization names kept as on the current page, ex-officio descriptions.
 - SEO titles and descriptions for every page are drafted in docs/SEO.md (Project doc claude/website-seo-plan.md); apply at go-live after approval.
+
+## Our Team go-live (Oct 17, 2026, approved by Janice)
+- Live at /our-team (loader pinned @57fd524, mount `#pf-team`). Title "Our Team | Staff and Board | Paddle Florida"; description saved (148 chars); indexable; 9 images render; one H1.
+- Method: reused the existing nav page (kept its menu position), replaced its sections with one code block, removed the old teal header section.
+- Backup of the old content: page "Our Team (old backup)" (/our-team-backup, Not Linked, noindex). Scratch page "Our Team v2" (/our-team-v2, Not Linked, noindex) can be deleted with an explicit yes.
+- /our-team-old returns 404 (old-slug rename was not needed because the original page was edited in place).
+- Remaining pages (Home, six trips) are NOT approved to go live.
