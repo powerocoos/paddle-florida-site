@@ -20,3 +20,8 @@ As of Oct 16, 2026
 - Status: Santa Fe, Keys sold out (Blackwater too); Festival, Wilderness, St Aug open.
 - To confirm with Janice: Santa Fe optional miles (Day 4 7-13 and Day 6 0-6 vs "35 plus an optional 6"), Dampiers Landing mention, post-trip shuttle wording; Keys per-day miles and bedding; Festival camp location (Suwannee River SP both nights assumed), capacity; Wilderness total 63 vs 65, Day 6 miles 6 vs 8, shuttle at Shrine Club; Wilderness price now $600/$575 and deadline Dec 19, 2026; St Aug deadline Jan 12, 2027 and 5 vs 6 paddling days; baggage wording for non-Blackwater trips; mailed-check address.
 - Home trip cards still link to /trip-previews-registration; repoint to the v2 pages at go-live.
+
+## Newsletter and card links (Oct 17, 2026)
+- Home v2 loader pinned to 2d79715. Home trip cards now link to the v2 trip pages. A native Squarespace Newsletter block ("Get trip updates", stores to Squarespace Email Subscribers, mailing list "Default", reCAPTCHA on, confirmation email off) sits in its own section at the bottom of Home v2; home.js moves it into the teal "Hear first when a season opens" section and hides the empty section. No test signup was submitted.
+- Trip pages' newsletter button links to /home-v2#pf-news in code at 1ebc3f9 or later; the six trip code blocks are still pinned to b964cde/697e96d (button goes to /#pf-news) until repinned at go-live.
+- At go-live: change card urls and trip CFG.news to the final slugs, and repin all loaders.
