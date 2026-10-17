@@ -33,6 +33,7 @@
 .pfh p{margin:0 0 1em}\
 .pfh a{text-decoration:none!important}\
 .pfh .w{max-width:1160px;margin:0 auto;padding:0 20px}\
+.pfh .hero .w{width:100%}\
 .pfh .cta{display:flex;flex-wrap:wrap;gap:12px;align-items:stretch}.pfh .cta .btn{margin:0;flex:0 1 auto}.pfh .btn{display:inline-block;text-align:center;white-space:normal;text-decoration:none!important;background:var(--or);color:#fff!important;font:600 15px/1.25 Poppins,sans-serif;border:0;border-radius:10px;padding:13px 24px;cursor:pointer;transition:background .15s,transform .15s}\
 .pfh .btn:hover{background:var(--or2);transform:translateY(-1px)}\
 .pfh .alt.tl{--x:0}.pfh .btn.o{background:transparent;color:var(--or)!important;border:2px solid var(--or);padding:11px 22px}\

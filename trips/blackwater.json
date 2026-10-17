@@ -1,0 +1,278 @@
+{
+ "id": "blackwater",
+ "status": "soldout",
+ "name": "Blackwater River + Coldwater Creek Experience",
+ "dates": "Feb 22–28, 2027",
+ "start": "2027-02-22",
+ "end": "2027-02-28",
+ "place": "Harold to Milton, near Pensacola",
+ "startLoc": "Blackwater Joe's, Harold",
+ "finishLoc": "Carpenter's Park, Milton",
+ "miles": "42–50 miles",
+ "capacity": 36,
+ "adult": 725,
+ "senior": 700,
+ "deadline": "Nov 24, 2026",
+ "level": "Beginner friendly",
+ "nights": "6, tent camping",
+ "meals": "Catered",
+ "hero": "bfa70c35-de88-4b90-b2a5-399525a7b2d4/Blackwater-River.jpg",
+ "included": "Camping, catered breakfasts and dinners, daily lunch snacks, river maps and evening programs. Cabins at Blackwater Joe's are optional and extra.",
+ "cabinsNote": "Optional cabins: contact Blackwater Joe's at 850-803-2267 for your own cabin rental, at your own cost.",
+ "outfitter": "Blackwater Joe's Canoe & Kayak Rentals (official outfitter). For rentals, email janice@paddleflorida.org.",
+ "overview": {
+  "title": "Two rivers, one week",
+  "text": "Paddle part of the Florida Canoe Trail on the Blackwater River, with white sandbars, high bluffs and tea-colored water, then finish on spring-fed Coldwater Creek. Two nights at Blackwater River State Park, in partnership with Florida State Parks, give you a full day to explore the beaches.",
+  "minis": [
+   [
+    "56.6 mi",
+    "Length of the Blackwater River, from southern Alabama to Blackwater Bay"
+   ],
+   [
+    "3+ mph",
+    "Typical current on cold, clear, shallow Coldwater Creek"
+   ],
+   [
+    "7 days",
+    "Paddling and layover days, tent camping"
+   ]
+  ]
+ },
+ "days": [
+  {
+   "n": 1,
+   "date": "Mon, Feb 22",
+   "title": "Arrive and settle in",
+   "miles": 0,
+   "lunch": "N/A",
+   "camp": "Blackwater Joe's",
+   "body": "Check in from 1 to 5 PM at Blackwater Joe's, a camp with a beach and river access. Set up your tent, then dinner at 6 PM, a trip orientation (attendance is required) and an evening program at 7 PM.",
+   "img": "43a1a73d-badf-4b60-a143-1eef07748de2/blk+1.jpg",
+   "cap": ""
+  },
+  {
+   "n": 2,
+   "date": "Tue, Feb 23",
+   "title": "Through Blackwater River State Forest",
+   "miles": 10,
+   "lunch": "On the river (about mile 5)",
+   "camp": "Blackwater Joe's",
+   "body": "A shuttle takes you to the put-in, then you paddle about 10 miles back to camp. Expect high bluffs, shady canopy, tea-colored water and white sandbars for picnics. A good day for beginners.",
+   "img": "9eae844c-ba22-4e37-b91b-2e6d0e497d41/blk+1.jpg",
+   "cap": "Beautiful white sandy beaches"
+  },
+  {
+   "n": 3,
+   "date": "Wed, Feb 24",
+   "title": "To Blackwater River State Park",
+   "miles": 10,
+   "lunch": "On the river (about mile 5)",
+   "camp": "Blackwater River State Park",
+   "body": "Paddle about 10 miles downriver to the state park, where you camp for two nights.",
+   "img": "c049bc91-fe8b-4296-9795-fc3970d4d592/blk+3.jpg",
+   "cap": "The striking beaches at Blackwater River State Park"
+  },
+  {
+   "n": 4,
+   "date": "Thu, Feb 25",
+   "title": "Layover day",
+   "miles": 0,
+   "optMiles": 8,
+   "lunch": "At camp",
+   "camp": "Blackwater River State Park",
+   "body": "A rest day at the park, in partnership with Florida State Parks. Explore the beaches, or take an optional 5-mile paddle.",
+   "img": "64842f66-51bc-4072-86d5-bd2982b490fb/blackwater-river-state-park.jpg",
+   "cap": "Blackwater River State Park"
+  },
+  {
+   "n": 5,
+   "date": "Fri, Feb 26",
+   "title": "To Coldwater Creek",
+   "miles": 10,
+   "lunch": "On the river (about mile 5)",
+   "camp": "Coldwater Creek Recreational Area",
+   "body": "About 10 miles to the Coldwater Creek Recreational Area in Blackwater River State Forest, with clean restrooms and showers at camp.",
+   "img": "bad0d730-fbca-4d76-ad76-e2c6551e3a29/cld+2.jpg",
+   "cap": "Coldwater Creek"
+  },
+  {
+   "n": 6,
+   "date": "Sat, Feb 27",
+   "title": "South to Bob's Canoe Landing",
+   "miles": 12,
+   "lunch": "On the river (about mile 6)",
+   "camp": "Bob's Canoe Landing",
+   "body": "After breakfast, pack up and load the gear truck, then paddle about 12 miles south. Coldwater Creek is mostly spring-fed, cold, clear and shallow, with a current of 3+ mph and few motorboats.",
+   "img": "fae73fb7-91fa-4cfc-a22a-76c6f496bc37/cld+1.jpg",
+   "cap": ""
+  },
+  {
+   "n": 7,
+   "date": "Sun, Feb 28",
+   "title": "The final stretch to Milton",
+   "miles": 7,
+   "lunch": "At the finish (Carpenter Park)",
+   "camp": "None. The trip ends.",
+   "body": "The last section of Coldwater Creek to Carpenter's Park in Milton, which calls itself the Canoe Capital of Florida.",
+   "img": "2ea02173-7f1d-4dd5-a1e8-55e896052b3e/cld+3.jpg",
+   "cap": ""
+  }
+ ],
+ "map": {
+  "note": "Schematic only, not to scale. Direction of travel is left to right.",
+  "points": [
+   {
+    "x": 60,
+    "y": 170,
+    "name": "Blackwater Joe's",
+    "sub": "Days 1 and 2",
+    "day": 1
+   },
+   {
+    "x": 250,
+    "y": 95,
+    "name": "Blackwater River State Park",
+    "sub": "Days 3 and 4",
+    "day": 3
+   },
+   {
+    "x": 450,
+    "y": 150,
+    "name": "Coldwater Creek Rec. Area",
+    "sub": "Day 5",
+    "day": 5
+   },
+   {
+    "x": 650,
+    "y": 80,
+    "name": "Bob's Canoe Landing",
+    "sub": "Day 6",
+    "day": 6
+   },
+   {
+    "x": 830,
+    "y": 150,
+    "name": "Carpenter's Park",
+    "sub": "Finish, Day 7",
+    "day": 7
+   }
+  ],
+  "segments": [
+   "10 mi",
+   "10 mi",
+   "12 mi",
+   "7 mi"
+  ]
+ },
+ "camps": [
+  {
+   "nights": "Day 1 and 2",
+   "name": "Blackwater Joe's",
+   "note": "Beach and river access. Optional cabins, booked and paid separately."
+  },
+  {
+   "nights": "Day 3 and 4",
+   "name": "Blackwater River State Park",
+   "note": "Two nights, with a layover day for the beaches."
+  },
+  {
+   "nights": "Day 5",
+   "name": "Coldwater Creek Recreational Area",
+   "note": "Blackwater River State Forest. Clean restrooms and showers."
+  },
+  {
+   "nights": "Day 6",
+   "name": "Bob's Canoe Landing",
+   "note": "Last camp. Gear goes on the truck each morning."
+  }
+ ],
+ "boat": "Sit-in kayak, sit-on-top kayak or paddleboard, at least 12 feet. Basic paddling and swimming skills and moderately good fitness.",
+ "baggage": "Two bags and 40 pounds in total. Bags ride the gear truck each day. Label them with your name.",
+ "water": [
+  "Boat and paddle (rentals through Janice)",
+  "Non-inflatable Coast Guard-approved PFD, worn on the water",
+  "Bow line, 8 to 10 ft, secured so it cannot come loose",
+  "Grab loops at bow and stern",
+  "Throw rope",
+  "Whistle",
+  "Knife",
+  "Waterproof fire source",
+  "First aid kit in a waterproof cover",
+  "Repair kit (duct tape, sealant, waterproof tape)",
+  "Rain gear and a fleece or light jacket",
+  "Dry change of clothes in a waterproof bag",
+  "Closed-toe footwear (no flip-flops)",
+  "Sunscreen, hat and sunglasses",
+  "Water for the day and snacks (lunch is provided)",
+  "Dry bag or zip bag",
+  "Mask and snorkel (optional)",
+  "GPS (optional)"
+ ],
+ "land": [
+  "Tent",
+  "Sleeping bag, pad and pillow",
+  "Camp chair",
+  "Layers for 50 to 85 degrees F",
+  "Bathing suit (optional)",
+  "Headlamp or flashlight",
+  "Toiletries and medications",
+  "Something to read, music or earplugs",
+  "Camera"
+ ],
+ "faq": [
+  [
+   "What are evenings like?",
+   "Dinner at 6 PM and an evening program at 7 PM. Programs include authors, historians and environmental experts, regional plants, animals and ecology, and one night of live music."
+  ],
+  [
+   "Who can come?",
+   "Open to all skill levels. Paddlers under 18 must be with a parent or guardian, with no more than two children under 12 per adult. A signed waiver and emergency contact are required. No pets."
+  ],
+  [
+   "What are the rules on the water?",
+   "Wear a non-inflatable PFD at all times. People-powered boats only. Follow park rules, including the alcohol ban, and respect private property along the river."
+  ],
+  [
+   "Refunds and insurance",
+   "All payments are non-refundable, including for weather and water levels. Paddle Florida strongly recommends buying trip cancellation insurance from an outside provider."
+  ],
+  [
+   "Will I get a confirmation?",
+   "Yes. Final details are emailed 7 to 10 days before the trip."
+  ]
+ ],
+ "gallery": [
+  "43a1a73d-badf-4b60-a143-1eef07748de2/blk+1.jpg",
+  "9eae844c-ba22-4e37-b91b-2e6d0e497d41/blk+1.jpg",
+  "c049bc91-fe8b-4296-9795-fc3970d4d592/blk+3.jpg",
+  "907d1795-87a6-4f62-939f-15a55334e833/blk+4.jpg",
+  "bad0d730-fbca-4d76-ad76-e2c6551e3a29/cld+2.jpg",
+  "fae73fb7-91fa-4cfc-a22a-76c6f496bc37/cld+1.jpg",
+  "2ea02173-7f1d-4dd5-a1e8-55e896052b3e/cld+3.jpg",
+  "46efc312-016d-47af-8b27-6aa5e9f8be48/cld+4.jpg",
+  "0135a65c-065c-4628-9906-f03e154e8d26/blk+2.jpg"
+ ],
+ "payments": [
+  {
+   "id": "credit",
+   "label": "Credit or debit card",
+   "sub": "Pay online by card",
+   "url": "https://form.jotform.com/251175948659170"
+  },
+  {
+   "id": "echeck",
+   "label": "E-check",
+   "sub": "Pay online from your bank account",
+   "url": "https://form.jotform.com/251175621359155"
+  },
+  {
+   "id": "mail",
+   "label": "Mailed check",
+   "sub": "Fill out the form, then mail your check",
+   "url": "https://form.jotform.com/261215124394148"
+  }
+ ],
+ "mailTo": "Paddle Florida, Inc., P.O. Box 840205, St. Augustine, FL 32080",
+ "insuranceUrl": "/trip-cancellations",
+ "outfitterUrl": "https://www.blackwaterjoescanoes.com/"
+}
