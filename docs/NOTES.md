@@ -37,3 +37,13 @@ As of Oct 16, 2026
 - Backup of the old content: page "Our Team (old backup)" (/our-team-backup, Not Linked, noindex). Scratch page "Our Team v2" (/our-team-v2, Not Linked, noindex) can be deleted with an explicit yes.
 - /our-team-old returns 404 (old-slug rename was not needed because the original page was edited in place).
 - Remaining pages (Home, six trips) are NOT approved to go live.
+
+## Evening Programs rework (Oct 17, 2026) - PREVIEW ONLY, not live
+- Old page: /evening-programs, one long alphabetical list of 70 speaker and musician bios built block by block in Squarespace (title "Evening Programs | Join Our Evening Programs Today"). Still live and untouched.
+- New private preview: "Evening Programs v2" (/evening-programs-v2, Not Linked, noindex), loader pinned @de25233. Searchable card directory, bio pop-up (Esc and arrow keys), website links, optional label filter buttons. Data in evening/speakers.json (copied verbatim from the live page; only fix: removed a duplicated name at the start of two bios, Daniel Alvarez and Sarah Mac Band).
+- Updating from the dashboard: new "Evening programs" tab (pf-dashboard commit 34f065d). Add/edit/hide/reorder, photo upload (resized in the browser), page intro, draft then Publish. Publish writes a snapshot that the page reads from https://pf-dashboard.calm-sun-1c8d.workers.dev/public/evening.json. Until that feed is reachable the page shows the embedded copy (same 70 people).
+- D1 tables added: evening_speakers, evening_settings, evening_photos, evening_published, evening_log (schema/evening.sql in pf-dashboard).
+- BLOCKER for live updates: Cloudflare Access protects the whole Worker, so the public feed is login-gated. Xavier must add an Access application (or path rule) with a Bypass policy for /public/* on pf-dashboard.calm-sun-1c8d.workers.dev. Security setting, not done by Claude.
+- Go-live (needs explicit yes): rename old slug to evening-programs-old and hide from search, give the new page slug evening-programs, nav title Evening Programs, SEO below; repin loader.
+- SEO draft: title "Evening Programs | Speakers and Music on the Water | Paddle Florida"; description "Meet the naturalists, authors, scientists and musicians who lead evening programs on Paddle Florida's multi-day paddling trips across Florida." (check wording with Janice: confirm programs are held on trips).
+- Open questions for Janice: are all 70 still current? labels (Music/Author/Scientist) to turn on filter buttons? which speakers have no photo or outdated bios?
