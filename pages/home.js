@@ -69,6 +69,7 @@
 .pfh .sup{background:var(--soft)}.pfh .logos{display:flex;flex-wrap:wrap;gap:16px;align-items:stretch;justify-content:center}.pfh .logos a,.pfh .logos div{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 20px;min-width:170px;max-width:220px;flex:1 1 170px;color:var(--ink)!important;font-size:13px;text-align:center}.pfh .logos a:hover{box-shadow:0 8px 22px rgba(0,0,0,.1)}.pfh .logos img{max-height:84px;max-width:100%;width:auto;object-fit:contain}\
 .pfh .certs{margin-top:34px;padding-top:30px;border-top:1px solid var(--line);text-align:center}.pfh .certs h3{font-size:20px!important;color:var(--teal)!important}.pfh .quick{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:30px}.pfh .quick a{border:1px solid #c8c3b8;border-radius:99px;padding:8px 18px;font-weight:500;font-size:14px;color:var(--navy)!important;background:#fff}.pfh .quick a:hover{background:var(--teal);color:#fff!important}\
 .pfh .news{background:var(--teal);color:#fff;text-align:center}.pfh .news .t{color:#fff!important}.pfh .news .sub{color:#fff;font-weight:500}.pfh .news .w{max-width:720px}\
+.pfh .news .nb{max-width:560px;margin:14px auto 0}.pfh .news .nb *{color:#fff!important;text-align:center}.pfh .news .nb .newsletter-form-header-title{display:none}.pfh .news .nb .newsletter-form-header-description{display:none}.pfh .news .nb input{color:#16262b!important;background:#fff!important;border-radius:10px!important}.pfh .news .nb button,.pfh .news .nb input[type=submit]{background:#d9622b!important;color:#fff!important;border-radius:10px!important}\
 .pfh .vg{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.pfh .vid{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;border-radius:12px;overflow:hidden;cursor:pointer;background:#000}.pfh .vid img,.pfh .vid iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}.pfh .vid .pl{position:absolute;left:50%;top:50%;width:54px;height:54px;margin:-27px 0 0 -27px;border-radius:50%;background:rgba(217,98,43,.95)}.pfh .vid .pl:after{content:"";position:absolute;left:21px;top:16px;border-left:18px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent}\
 .pfh .vc{font-size:13.5px;margin-top:8px}.pfh .vc b{display:block;color:var(--navy)}.pfh .vc span{color:var(--mute)}\
 .pfh .gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.pfh .gal img{width:100%;height:210px;object-fit:cover;border-radius:12px;background:#ddd}\
@@ -104,6 +105,18 @@
       '<section><div class="w mis rv"><div><h2 class="t">Every trip supports Florida’s waters</h2><p>Paddle Florida is a 501(c)(3) not-for-profit. Its goals include water conservation, wildlife preservation, springs restoration and promoting Florida as a nature-based tourism destination.</p><p><a class="btn" href="#pf-donate" data-ev="mission_donate">Donate or get raffle tickets</a></p></div><div><p class="meta">Questions? Call <a href="tel:' + CFG.tel + '" style="color:var(--or)!important">' + CFG.phone + '</a> or email <a href="mailto:' + CFG.email + '" style="color:var(--or)!important">' + CFG.email + '</a>.</p></div></div></section>' +
       '<section class="sup" id="pf-sup"><div class="w rv"><h2 class="t" style="text-align:center">Supporters of Nature-Based Tourism</h2><p class="sub" style="margin:0 auto 28px;text-align:center">Tourism offices and certifications that stand behind Paddle Florida’s nature-based trips.</p><div class="logos">' + SUPP.map(function (x) { var i = '<img src="' + im(x[2]) + '" alt="' + esc(x[0]) + ' logo" loading="lazy">'; return x[1] ? '<a href="' + x[1] + '" target="_blank" rel="noopener" data-ev="supporter">' + i + '<span>' + esc(x[0]) + '</span></a>' : '<div>' + i + '<span>' + esc(x[0]) + '</span></div>'; }).join('') + '</div><div class="certs"><h3>Certifications</h3><div class="logos">' + CERT.map(function (x) { return '<a href="' + x[1] + '" target="_blank" rel="noopener" data-ev="cert"><img src="' + im(x[2]) + '" alt="' + esc(x[0]) + ' logo" loading="lazy"><span>' + esc(x[0]) + '</span></a>'; }).join('') + '</div></div><div class="quick"><a href="/frequently-asked-questions">FAQ</a><a href="/partnerships">Partnerships</a><a href="/newsletter-archive">News archive</a><a href="/post-trip-survey">Surveys</a><a href="/donate">Donate</a></div></div></section></div>';
     wire(trips);
+    moveNews();
+  }
+
+  // Move the native Squarespace newsletter block (added in a section below this code block) into the signup section
+  var NB = null;
+  function moveNews() {
+    try {
+      var t = root.querySelector('#pf-news .w'); if (!t) return;
+      if (!NB) { NB = document.querySelector('.sqs-block-newsletter'); if (!NB) return; }
+      var sec = NB.closest('section'), h = document.createElement('div'); h.className = 'nb'; h.appendChild(NB); t.appendChild(h);
+      if (sec && !sec.contains(root)) sec.style.display = 'none';
+    } catch (e) {}
   }
 
   function wire(trips) {
