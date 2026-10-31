@@ -21,7 +21,7 @@
   var CFG = {
     src: '/paddler-profiles?format=json',   // the blog collection (same site)
     blog: '/paddler-profiles',               // plain list, used as the fallback link
-    trips: '/trip-previews-registration',    // live trips and registration page
+    trips: '/home/#TripPreview',              // same link the site menu uses for Trip Previews & Registration
     contact: '/contact-us',
     title: 'The Paddle Florida Blog',
     intro: 'Trip reports, river stories and conservation news from the paddlers, guides and writers who love Florida’s waterways.'
@@ -44,6 +44,7 @@
     '.pfb .hero{position:relative;color:#fff;text-align:center;background:linear-gradient(135deg,var(--navy),var(--teal));padding:calc(var(--header-height,134px) * .55) 0 74px;overflow:hidden;isolation:isolate}',
     '.pfb .hero:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:46px;z-index:-1;background:#fff;clip-path:ellipse(60% 100% at 50% 100%)}',
     '.pfb .hero:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.14;background:repeating-radial-gradient(circle at 85% 120%,transparent 0 26px,#fff 27px 28px)}',
+    '.pfb.auto .hero{padding-top:calc(var(--header-height,134px) + 28px)}',
     '.pfb .hero h1{font-size:clamp(34px,5.4vw,56px)!important;color:#fff!important}.pfb .hero p{font-size:18px;max-width:700px;margin:0 auto}',
     '.pfb .ft{padding:6px 0 30px}',
     '.pfb .fc{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:0;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 12px 36px rgba(0,50,45,.10);color:inherit!important;transition:box-shadow .2s,transform .2s}',
@@ -131,7 +132,7 @@
     var years = [];
     posts.slice(1).forEach(function (p) { if (years.indexOf(p.year) < 0) years.push(p.year); });
     var f = posts[0];
-    root.innerHTML = '<style>' + css + '</style><div class="pfb">' +
+    root.innerHTML = '<style>' + css + '</style><div class="pfb' + (AUTO ? ' auto' : '') + '">' +
       '<header class="hero"><div class="w"><h1>' + esc(CFG.title) + '</h1><p>' + esc(CFG.intro) + '</p></div></header>' +
       '<div class="ft"><div class="w"><a class="fc' + (f.photo ? '' : ' np') + '" href="' + esc(f.url) + '" data-post="0"><div class="ph">' + photo(f, 1000, true) + '</div><div class="tx"><span class="lb">Latest story</span>' + metaLine(f) + '<h2>' + esc(f.title) + '</h2><p>' + esc(f.ex) + '</p><span class="go">Read the story →</span></div></a></div></div>' +
       '<div class="bar"><div class="w"><label class="sr"><span style="position:absolute;left:-9999px">Search stories</span><input type="search" id="pfb-q" placeholder="Search stories, rivers and writers" autocomplete="off"></label>' +
