@@ -47,3 +47,11 @@ As of Oct 16, 2026
 - Go-live (needs explicit yes): rename old slug to evening-programs-old and hide from search, give the new page slug evening-programs, nav title Evening Programs, SEO below; repin loader.
 - SEO draft: title "Evening Programs | Speakers and Music on the Water | Paddle Florida"; description "Meet the naturalists, authors, scientists and musicians who lead evening programs on Paddle Florida's multi-day paddling trips across Florida." (check wording with Janice: confirm programs are held on trips).
 - Open questions for Janice: are all 70 still current? labels (Music/Author/Scientist) to turn on filter buttons? which speakers have no photo or outdated bios?
+
+## Blog page rework (Oct 31, 2026) - PREVIEW ONLY, not live
+- Old page: /paddler-profiles, Squarespace blog collection (17 posts, newest May 1 2024), plain 3-column list. Still live and untouched.
+- New private preview: "Blog v2" (/blog-v2, Not Linked, noindex), code block loader pinned to the commit below. Code: pages/blog.src.js (built to pages/blog.js); no data file.
+- It reads the posts live from /paddler-profiles?format=json (same origin), so new posts appear by themselves; it shows a link to the plain blog if the read fails. Excerpt = first real paragraph; reading time estimated; author is NOT shown (the Squarespace author is the poster, not the writer).
+- Layout: hero, latest story card (small source photos switch to a square thumbnail), search plus year filters, 3-column card grid, newsletter CTA. Newsletter button links to /home-v2#pf-news until go-live.
+- Go-live (needs Janice's yes): the live blog is a collection, so it cannot be swapped for a code block page the way Team was. Plan: add a Page Header Code Injection on the blog collection that adds the mount, hides the default list only after the new list renders, and loads this script; set SEO title and description; repoint the newsletter link. Not built or tested yet.
+- Open: featured post photo is only 300px wide at the source; the newest post is from May 2024.

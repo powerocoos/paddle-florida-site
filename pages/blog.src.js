@@ -36,6 +36,7 @@
     '.pfb .fc{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:0;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 12px 36px rgba(0,50,45,.10);color:inherit!important;transition:box-shadow .2s,transform .2s}',
     '.pfb .fc:hover{box-shadow:0 18px 44px rgba(0,50,45,.18);transform:translateY(-3px)}',
     '.pfb .fc .ph{min-height:340px;background:#cfd8d6;overflow:hidden}.pfb .fc .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s}.pfb .fc:hover .ph img{transform:scale(1.04)}',
+    '.pfb .fc.sm{grid-template-columns:280px minmax(0,1fr)}.pfb .fc.sm .ph{min-height:0;aspect-ratio:1/1;align-self:center;margin:28px 0 28px 28px;border-radius:16px}',
     '.pfb .fc .tx{padding:34px 36px;display:flex;flex-direction:column;justify-content:center;gap:2px}',
     '.pfb .fc h2{font-size:clamp(26px,3.2vw,38px)!important;color:var(--navy)!important}',
     '.pfb .fc p{font-size:16px;color:var(--mute);margin:0 0 16px}',
@@ -56,7 +57,7 @@
     '.pfb .card p{font-size:14.5px;color:var(--mute);margin:0 0 12px}.pfb .card .go{margin-top:auto;font-size:14px}',
     '.pfb .none,.pfb .err{text-align:center;color:var(--mute);padding:40px 0}',
     '.pfb .cta{background:var(--teal);color:#fff;text-align:center;padding:56px 0}.pfb .cta h2{color:#fff!important;font-size:clamp(26px,3.4vw,34px)!important}.pfb .cta p{max-width:620px;margin:0 auto 22px;font-size:17px}.pfb .cta .btn+.btn{margin-left:10px}',
-    '@media(max-width:1000px){.pfb .grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pfb .fc{grid-template-columns:1fr}.pfb .fc .ph{min-height:0;aspect-ratio:16/9}.pfb .fc .tx{padding:24px 22px 28px}}',
+    '@media(max-width:1000px){.pfb .fc.sm{grid-template-columns:1fr}.pfb .fc.sm .ph{width:200px;margin:24px auto 0}.pfb .grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pfb .fc{grid-template-columns:1fr}.pfb .fc .ph{min-height:0;aspect-ratio:16/9}.pfb .fc .tx{padding:24px 22px 28px}}',
     '@media(max-width:620px){.pfb .grid{grid-template-columns:1fr;gap:16px}.pfb .cnt{margin-left:0;flex-basis:100%}.pfb .cta .btn{display:block;margin:0 auto 10px;max-width:320px}.pfb .cta .btn+.btn{margin-left:auto}}',
     '@media(prefers-reduced-motion:reduce){.pfb *{transition:none!important}}'
   ].join('\n');
@@ -126,6 +127,8 @@
       '<div class="cta"><div class="w"><h2>Get stories and trip news first</h2><p>Join the newsletter to hear when registration opens and when new stories are posted.</p><a class="btn" href="' + CFG.news + '" data-ev="blog_news">Get trip updates</a><a class="btn alt" href="' + CFG.trips + '" data-ev="blog_trips">See our trips</a></div></div>' +
       '</div>';
     drawGrid();
+    var im = root.querySelector('.fc img'), fc = root.querySelector('.fc');
+    if (im) { var chk = function () { if (im.naturalWidth && im.naturalWidth < 700) fc.classList.add('sm'); }; if (im.complete) chk(); else im.addEventListener('load', chk); }
   }
   function fail() {
     root.innerHTML = '<div class="pfb"><div class="w"><p class="err">We could not load the stories just now. <a href="' + CFG.blog + '" style="color:#d9622b">Open the full blog</a>.</p></div></div>';
