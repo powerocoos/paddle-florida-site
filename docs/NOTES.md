@@ -50,8 +50,14 @@ As of Oct 16, 2026
 
 ## Blog page rework (Oct 31, 2026) - PREVIEW ONLY, not live
 - Old page: /paddler-profiles, Squarespace blog collection (17 posts, newest May 1 2024), plain 3-column list. Still live and untouched.
-- New private preview: "Blog v2" (/blog-v2, Not Linked, noindex), code block loader pinned to the commit below. Code: pages/blog.src.js (built to pages/blog.js); no data file.
+- New private preview: "Blog v2" (/blog-v2, Not Linked, noindex), code block loader pinned to @a61415c. Code: pages/blog.src.js (built to pages/blog.js); no data file.
 - It reads the posts live from /paddler-profiles?format=json (same origin), so new posts appear by themselves; it shows a link to the plain blog if the read fails. Excerpt = first real paragraph; reading time estimated; author is NOT shown (the Squarespace author is the poster, not the writer).
 - Layout: hero, latest story card (small source photos switch to a square thumbnail), search plus year filters, 3-column card grid, newsletter CTA. Newsletter button links to /home-v2#pf-news until go-live.
 - Go-live (needs Janice's yes): the live blog is a collection, so it cannot be swapped for a code block page the way Team was. Plan: add a Page Header Code Injection on the blog collection that adds the mount, hides the default list only after the new list renders, and loads this script; set SEO title and description; repoint the newsletter link. Not built or tested yet.
 - Open: featured post photo is only 300px wide at the source; the newest post is from May 2024.
+- Placeholder images: the three newest posts only carry Squarespace's blank placeholder image (file name has no extension), so the page treats them as having no photo (text-only featured card, teal pattern on cards).
+- Checked live Oct 31: /blog-v2 loads 17 stories, noindex present, no horizontal scroll, search and year filters work.
+
+## Evening Programs status check (Oct 31, 2026)
+- Observed on the live site: /evening-programs now serves the new page (mount pf-evening, loader @de25233); /evening-programs-v2 and /evening-programs-old return 404, and the Pages panel shows "Evening Programs old" as disabled. So the go-live swap appears to have been done in Squarespace. SEO title and description on /evening-programs were not re-checked.
+- The dashboard feed is still login-gated until the /public/* Access bypass is saved, so the page shows its embedded copy of the 70 speakers.
