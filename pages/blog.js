@@ -37,6 +37,7 @@
     '.pfb .fc:hover{box-shadow:0 18px 44px rgba(0,50,45,.18);transform:translateY(-3px)}',
     '.pfb .fc .ph{min-height:340px;background:#cfd8d6;overflow:hidden}.pfb .fc .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s}.pfb .fc:hover .ph img{transform:scale(1.04)}',
     '.pfb .fc.sm{grid-template-columns:280px minmax(0,1fr)}.pfb .fc.sm .ph{min-height:0;aspect-ratio:1/1;align-self:center;margin:28px 0 28px 28px;border-radius:16px}',
+    '.pfb .fc.np{grid-template-columns:1fr;border-left:8px solid var(--teal)}.pfb .fc.np .ph{display:none}.pfb .fc.np .tx{padding:34px 40px}',
     '.pfb .fc .tx{padding:34px 36px;display:flex;flex-direction:column;justify-content:center;gap:2px}',
     '.pfb .fc h2{font-size:clamp(26px,3.2vw,38px)!important;color:var(--navy)!important}',
     '.pfb .fc p{font-size:16px;color:var(--mute);margin:0 0 16px}',
@@ -44,8 +45,8 @@
     '.pfb .meta{font:500 13px Poppins;color:var(--mute);margin:0 0 8px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 12px}',
     '.pfb .go{font:600 15px Poppins;color:var(--or)}',
     '.pfb .bar{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--line);border-top:1px solid var(--line)}.pfb .bar .w{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;padding-top:12px;padding-bottom:12px}',
-    '.pfb .sr{flex:1 1 260px;position:relative}.pfb .sr input{width:100%;font:500 16px Poppins,sans-serif;color:var(--ink);padding:11px 16px;border:1px solid #c8c3b8;border-radius:99px;background:#fff}',
-    '.pfb .tags{display:flex;flex-wrap:wrap;gap:8px}.pfb .tags button{font:500 14px Poppins;border:1px solid #c8c3b8;background:#fff;color:var(--ink);border-radius:99px;padding:8px 16px;cursor:pointer}.pfb .tags button[aria-pressed=true]{background:var(--teal);border-color:var(--teal);color:#fff}',
+    '.pfb .sr{flex:1 1 240px;min-width:200px;max-width:420px;position:relative}.pfb .sr input{width:100%;font:500 16px Poppins,sans-serif;color:var(--ink);padding:11px 16px;border:1px solid #c8c3b8;border-radius:99px;background:#fff}',
+    '.pfb .tags{display:flex;flex-wrap:wrap;gap:8px;flex-shrink:0}.pfb .tags button{font:500 14px Poppins;border:1px solid #c8c3b8;background:#fff;color:var(--ink);border-radius:99px;padding:8px 16px;cursor:pointer}.pfb .tags button[aria-pressed=true]{background:var(--teal);border-color:var(--teal);color:#fff}',
     '.pfb .cnt{font:500 14px Poppins;color:var(--mute);margin-left:auto}',
     '.pfb section.gr{padding:34px 0 60px}',
     '.pfb .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}',
@@ -79,7 +80,7 @@
     return {
       title: plain(it.title) || 'Untitled',
       url: it.fullUrl || CFG.blog,
-      photo: it.assetUrl || '',
+      photo: /\.(jpe?g|png|gif|webp)(\?|$)/i.test(it.assetUrl || '') ? it.assetUrl : '',   // Squarespace's blank placeholder has no file name
       ts: d.getTime(),
       year: d.getFullYear(),
       date: d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' }),
@@ -119,7 +120,7 @@
     var f = posts[0];
     root.innerHTML = '<style>' + css + '</style><div class="pfb">' +
       '<header class="hero"><div class="w"><h1>' + esc(CFG.title) + '</h1><p>' + esc(CFG.intro) + '</p></div></header>' +
-      '<div class="ft"><div class="w"><a class="fc" href="' + esc(f.url) + '" data-post="0"><div class="ph">' + photo(f, 1000, true) + '</div><div class="tx"><span class="lb">Latest story</span>' + metaLine(f) + '<h2>' + esc(f.title) + '</h2><p>' + esc(f.ex) + '</p><span class="go">Read the story →</span></div></a></div></div>' +
+      '<div class="ft"><div class="w"><a class="fc' + (f.photo ? '' : ' np') + '" href="' + esc(f.url) + '" data-post="0"><div class="ph">' + photo(f, 1000, true) + '</div><div class="tx"><span class="lb">Latest story</span>' + metaLine(f) + '<h2>' + esc(f.title) + '</h2><p>' + esc(f.ex) + '</p><span class="go">Read the story →</span></div></a></div></div>' +
       '<div class="bar"><div class="w"><label class="sr"><span style="position:absolute;left:-9999px">Search stories</span><input type="search" id="pfb-q" placeholder="Search stories, rivers and writers" autocomplete="off"></label>' +
       (years.length > 1 ? '<div class="tags" role="group" aria-label="Filter by year"><button data-year="" aria-pressed="true">All years</button>' + years.map(function (y) { return '<button data-year="' + y + '" aria-pressed="false">' + y + '</button>'; }).join('') + '</div>' : '') +
       '<span class="cnt" aria-live="polite"></span></div></div>' +
