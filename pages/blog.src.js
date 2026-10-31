@@ -118,7 +118,7 @@
     var f = posts[0];
     root.innerHTML = '<style>' + css + '</style><div class="pfb">' +
       '<header class="hero"><div class="w"><h1>' + esc(CFG.title) + '</h1><p>' + esc(CFG.intro) + '</p></div></header>' +
-      '<div class="ft"><div class="w"><a class="fc" href="' + esc(f.url) + '" data-post="0"><div class="ph">' + photo(f, 1100, true) + '</div><div class="tx"><span class="lb">Latest story</span>' + metaLine(f) + '<h2>' + esc(f.title) + '</h2><p>' + esc(f.ex) + '</p><span class="go">Read the story →</span></div></a></div></div>' +
+      '<div class="ft"><div class="w"><a class="fc" href="' + esc(f.url) + '" data-post="0"><div class="ph">' + photo(f, 1000, true) + '</div><div class="tx"><span class="lb">Latest story</span>' + metaLine(f) + '<h2>' + esc(f.title) + '</h2><p>' + esc(f.ex) + '</p><span class="go">Read the story →</span></div></a></div></div>' +
       '<div class="bar"><div class="w"><label class="sr"><span style="position:absolute;left:-9999px">Search stories</span><input type="search" id="pfb-q" placeholder="Search stories, rivers and writers" autocomplete="off"></label>' +
       (years.length > 1 ? '<div class="tags" role="group" aria-label="Filter by year"><button data-year="" aria-pressed="true">All years</button>' + years.map(function (y) { return '<button data-year="' + y + '" aria-pressed="false">' + y + '</button>'; }).join('') + '</div>' : '') +
       '<span class="cnt" aria-live="polite"></span></div></div>' +
