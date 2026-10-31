@@ -2,14 +2,27 @@
    Posts are read live from the Squarespace blog (same origin, ?format=json), so new posts appear by themselves.
    Nothing personal is stored here. Built by Ocoos Web Consulting. */
 (function () {
-  var root = document.getElementById('pf-blog');
-  if (!root || root.getAttribute('data-ready')) return;
-  root.setAttribute('data-ready', '1');
+  // Two ways to run: (1) a code block on a normal page holding <div id="pf-blog"></div>, or
+  // (2) AUTO mode, used on the live blog: the page header injection sets window.PF_BLOG_AUTO = true,
+  // this script puts the new list at the top of the page and hides the original list only after it has drawn.
+  var AUTO = !!window.PF_BLOG_AUTO;
+  var done = function () { document.documentElement.classList.remove('pfb-wait'); };
+  function boot() {
+    var root = document.getElementById('pf-blog');
+    if (!root && AUTO) {
+      var main = document.querySelector('main#page') || document.querySelector('main');
+      if (main) { root = document.createElement('div'); root.id = 'pf-blog'; main.insertBefore(root, main.firstChild); }
+    }
+    if (!root || root.getAttribute('data-ready')) { done(); return; }
+    root.setAttribute('data-ready', '1');
+    init(root);
+  }
+  function init(root) {
   var CFG = {
     src: '/paddler-profiles?format=json',   // the blog collection (same site)
     blog: '/paddler-profiles',               // plain list, used as the fallback link
-    news: '/home-v2#pf-news',                // newsletter section (repoint to /#pf-news at go-live)
-    trips: '/#trips',
+    trips: '/trip-previews-registration',    // live trips and registration page
+    contact: '/contact-us',
     title: 'The Paddle Florida Blog',
     intro: 'Trip reports, river stories and conservation news from the paddlers, guides and writers who love Florida’s waterways.'
   };
@@ -125,13 +138,15 @@
       (years.length > 1 ? '<div class="tags" role="group" aria-label="Filter by year"><button data-year="" aria-pressed="true">All years</button>' + years.map(function (y) { return '<button data-year="' + y + '" aria-pressed="false">' + y + '</button>'; }).join('') + '</div>' : '') +
       '<span class="cnt" aria-live="polite"></span></div></div>' +
       '<section class="gr"><div class="w"><div class="grid"></div><p class="none" hidden>No stories match that search. Try a shorter word.</p></div></section>' +
-      '<div class="cta"><div class="w"><h2>Get stories and trip news first</h2><p>Join the newsletter to hear when registration opens and when new stories are posted.</p><a class="btn" href="' + CFG.news + '" data-ev="blog_news">Get trip updates</a><a class="btn alt" href="' + CFG.trips + '" data-ev="blog_trips">See our trips</a></div></div>' +
+      '<div class="cta"><div class="w"><h2>Come paddle with us</h2><p>Read the stories, then join a supported multi-day trip on Florida\u2019s waterways.</p><a class="btn" href="' + CFG.trips + '" data-ev="blog_trips">See our trips</a><a class="btn alt" href="' + CFG.contact + '" data-ev="blog_contact">Ask a question</a></div></div>' +
       '</div>';
     drawGrid();
     var im = root.querySelector('.fc img'), fc = root.querySelector('.fc');
     if (im) { var chk = function () { if (im.naturalWidth && im.naturalWidth < 700) fc.classList.add('sm'); }; if (im.complete) chk(); else im.addEventListener('load', chk); }
   }
+  function hideRest() { [].forEach.call(root.parentNode.children, function (c) { if (c !== root) c.style.display = 'none'; }); }
   function fail() {
+    if (AUTO) { if (root.parentNode) root.parentNode.removeChild(root); done(); return; }
     root.innerHTML = '<div class="pfb"><div class="w"><p class="err">We could not load the stories just now. <a href="' + CFG.blog + '" style="color:#d9622b">Open the full blog</a>.</p></div></div>';
   }
   // Read the blog, following Squarespace's offset paging when there are many posts.
@@ -150,6 +165,7 @@
     posts = items.map(parse).sort(function (a, b) { return b.ts - a.ts; });
     if (!posts.length) throw 0;
     build();
+    if (AUTO) { hideRest(); done(); }
   }).catch(fail);
 
   root.addEventListener('click', function (e) {
@@ -159,4 +175,6 @@
     var ev = e.target.closest('[data-ev]'); if (ev) track(ev.dataset.ev);
   });
   root.addEventListener('input', function (e) { if (e.target.id === 'pfb-q') { S.q = e.target.value.trim(); drawGrid(); } });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
