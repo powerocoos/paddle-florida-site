@@ -1,5 +1,5 @@
 # Paddle Florida website redesign: project notes
-As of Oct 16, 2026
+As of Oct 31, 2026
 - Repo: https://github.com/powerocoos/paddle-florida-site (PUBLIC, chosen by Xavier for simplicity; no personal data ever goes in it). Layout: pages/ (page code, *.src.js built to *.js by build.py), trips/trips.json (trip data), shared/.
 - Home v2 (Squarespace, Not Linked): one code block holds a loader pulling pages/home.js from jsDelivr pinned to commit 68daa87 (update the SHA in the Home v2 code block after each push). Renders hero (rotating photos), trip finder (filters, no wait list), "what a supported trip means", raffle/donate conversion section, newsletter section, 100 Trips shirt section (Bonfire), videos, gallery, mission, supporters (county tourism logos, Florida SEE and Guardian Guides certifications, quick links). Previewed in the editor and working. NOT live.
 - Wait list removed everywhere in v2: sold-out cards say "See the trip" and point to the newsletter signup.
