@@ -48,7 +48,7 @@ As of Oct 31, 2026
 - SEO draft: title "Evening Programs | Speakers and Music on the Water | Paddle Florida"; description "Meet the naturalists, authors, scientists and musicians who lead evening programs on Paddle Florida's multi-day paddling trips across Florida." (check wording with Janice: confirm programs are held on trips).
 - Open questions for Janice: are all 70 still current? labels (Music/Author/Scientist) to turn on filter buttons? which speakers have no photo or outdated bios?
 
-## Blog page rework (Oct 31, 2026) - PREVIEW ONLY, not live
+## Blog page rework (Oct 31, 2026) - LIVE (see go-live below)
 - Old page: /paddler-profiles, Squarespace blog collection (17 posts, newest May 1 2024), plain 3-column list. Still live and untouched.
 - New private preview: "Blog v2" (/blog-v2, Not Linked, noindex), code block loader pinned to @a61415c. Code: pages/blog.src.js (built to pages/blog.js); no data file.
 - It reads the posts live from /paddler-profiles?format=json (same origin), so new posts appear by themselves; it shows a link to the plain blog if the read fails. Excerpt = first real paragraph; reading time estimated; author is NOT shown (the Squarespace author is the poster, not the writer).
@@ -61,3 +61,11 @@ As of Oct 31, 2026
 ## Evening Programs status check (Oct 31, 2026)
 - Observed on the live site: /evening-programs now serves the new page (mount pf-evening, loader @de25233); /evening-programs-v2 and /evening-programs-old return 404, and the Pages panel shows "Evening Programs old" as disabled. So the go-live swap appears to have been done in Squarespace. SEO title and description on /evening-programs were not re-checked.
 - The dashboard feed is still login-gated until the /public/* Access bypass is saved, so the page shows its embedded copy of the 70 speakers.
+
+## Blog go-live (Oct 31, 2026, approved by Janice)
+- Live at /paddler-profiles (the blog collection itself; no slug change, so no -old page). Loader pinned @ee33500 in Blog settings > Advanced > Page Header Code Injection. It sets window.PF_BLOG_AUTO only when the path is exactly /paddler-profiles, hides the page for up to 4 seconds while the new list draws (the page is shown anyway if the script fails), puts the new list at the top of main#page and hides the original list only after it has drawn. If the post data cannot be read, the original blog list stays.
+- Fix made during go-live: Squarespace also runs the Page Header injection on individual post pages, which briefly replaced the article with the list. Guarded by the path check above; verified a post page shows its article again. Posts are not styled by this work.
+- SEO set: title "Paddle Florida Blog | Trip Reports and River Stories" (old: "Blog | Explore Waterways - Join Now"); description "Trip reports, river stories and conservation news from the paddlers, guides and writers of Paddle Florida's supported paddling trips across Florida." (old: "Discover Paddle Florida's extensive media coverage and stories on Florida's waterways, paddling adventures, and eco-tourism experiences.").
+- Buttons at the bottom: See our trips -> /home/#TripPreview (the link the live menu uses) and Ask a question -> /contact-us. A newsletter button can be added when the new Home (with the native newsletter block) goes live.
+- To undo: empty the Page Header Code Injection field in Blog settings and restore the old SEO title and description above.
+- /blog-v2 stays as a hidden preview (loader @a61415c) and can be deleted with an explicit yes.
