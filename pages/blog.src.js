@@ -90,7 +90,7 @@
   function metaLine(p) {
     return '<div class="meta"><span>' + esc(p.date) + '</span><span>' + p.mins + ' min read</span></div>';
   }
-  function photo(p, w) { return p.photo ? '<img src="' + esc(img(p.photo, w)) + '" alt="" loading="lazy">' : '<div class="noimg"></div>'; }
+  function photo(p, w, eager) { return p.photo ? '<img src="' + esc(img(p.photo, w)) + '" alt="" loading="' + (eager ? 'eager' : 'lazy') + '">' : '<div class="noimg"></div>'; }
   function card(p, i) {
     return '<a class="card" href="' + esc(p.url) + '" data-post="' + i + '"><div class="ph">' + photo(p, 750) + '</div><div class="bd">' + metaLine(p) + '<h3>' + esc(p.title) + '</h3><p>' + esc(p.ex) + '</p><span class="go">Read the story →</span></div></a>';
   }
@@ -118,7 +118,7 @@
     var f = posts[0];
     root.innerHTML = '<style>' + css + '</style><div class="pfb">' +
       '<header class="hero"><div class="w"><h1>' + esc(CFG.title) + '</h1><p>' + esc(CFG.intro) + '</p></div></header>' +
-      '<div class="ft"><div class="w"><a class="fc" href="' + esc(f.url) + '" data-post="0"><div class="ph">' + photo(f, 1100) + '</div><div class="tx"><span class="lb">Latest story</span>' + metaLine(f) + '<h2>' + esc(f.title) + '</h2><p>' + esc(f.ex) + '</p><span class="go">Read the story →</span></div></a></div></div>' +
+      '<div class="ft"><div class="w"><a class="fc" href="' + esc(f.url) + '" data-post="0"><div class="ph">' + photo(f, 1100, true) + '</div><div class="tx"><span class="lb">Latest story</span>' + metaLine(f) + '<h2>' + esc(f.title) + '</h2><p>' + esc(f.ex) + '</p><span class="go">Read the story →</span></div></a></div></div>' +
       '<div class="bar"><div class="w"><label class="sr"><span style="position:absolute;left:-9999px">Search stories</span><input type="search" id="pfb-q" placeholder="Search stories, rivers and writers" autocomplete="off"></label>' +
       (years.length > 1 ? '<div class="tags" role="group" aria-label="Filter by year"><button data-year="" aria-pressed="true">All years</button>' + years.map(function (y) { return '<button data-year="' + y + '" aria-pressed="false">' + y + '</button>'; }).join('') + '</div>' : '') +
       '<span class="cnt" aria-live="polite"></span></div></div>' +
