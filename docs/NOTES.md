@@ -69,3 +69,12 @@ As of Oct 31, 2026
 - Buttons at the bottom: See our trips -> /home/#TripPreview (the link the live menu uses) and Ask a question -> /contact-us. A newsletter button can be added when the new Home (with the native newsletter block) goes live.
 - To undo: empty the Page Header Code Injection field in Blog settings and restore the old SEO title and description above.
 - /blog-v2 stays as a hidden preview (loader @a61415c) and can be deleted with an explicit yes.
+
+## Domain moved to Cloudflare, dashboard on its own address (Oct 31, 2026)
+- paddleflorida.org nameservers now point to Cloudflare (christina / kai). Records were imported from GoDaddy and ALL set to DNS only (Squarespace and mail records must never be proxied). GoDaddy is still the registrar; the account belongs to Bill and Xavier has delegate access.
+- Dashboard: https://dashboard.paddleflorida.org (Worker custom domain). Access app "pf-dashboard - Cloudflare Workers" and bypass app "pf-dashboard.calm-sun-1c8d.workers.dev/public/*" each have the new hostname added. The workers.dev address still works as a fallback.
+- Evening page: feed now https://dashboard.paddleflorida.org/public/evening.json, loader pinned @39d91dd (was @de25233). Verified live: 70 speakers, 70 photos, feed from the new host.
+- pf-dashboard: PUBLIC_ORIGIN fallback in src/social.js now dashboard.paddleflorida.org (commit 97c7ff8).
+- Email records seen (not changed): MX Proofpoint (ppe-hosted.com), SPF includes Proofpoint and secureserver.net only, DKIM only for Squarespace, DMARC p=none with no report address. Mailboxes look like Microsoft 365. SPF/DKIM/DMARC work is pending: need to know who sends mail and who has Microsoft 365 admin.
+- Leftover subdomains pointing at the old GoDaddy hosting IP: documentation, flexmode, kingdom, manor, riseup, sleepmode (ask Janice before removing).
+- Meta (Facebook/Instagram) business may belong to a former board member (Bill); Page access for the social posting is unresolved.
