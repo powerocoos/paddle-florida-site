@@ -6,7 +6,7 @@
   if (!root || root.getAttribute('data-ready')) return;
   root.setAttribute('data-ready', '1');
   var DATA = /*EVENING*/{};
-  var CFG = { feed: 'https://pf-dashboard.calm-sun-1c8d.workers.dev/public/evening.json', trips: '/#trips', contact: '/contact-us' };
+  var CFG = { feed: 'https://dashboard.paddleflorida.org/public/evening.json', trips: '/#trips', contact: '/contact-us' };
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var track = function (n, x) { try { if (window.gtag) gtag('event', n, x || {}); (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: n }, x || {})); } catch (e) {} };
   var img = function (u, w) { return /squarespace-cdn\.com/.test(u) ? u + (u.indexOf('?') < 0 ? '?format=' + (w || 600) + 'w' : '') : u; };
