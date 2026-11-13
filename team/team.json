@@ -103,5 +103,79 @@
   "Lars Andersen",
   "Donald Forgione",
   "Farley Doucette"
+ ],
+ "layout": {
+  "staff": false,
+  "exofficio": false
+ },
+ "volunteers": [
+  {
+   "id": "v-douga",
+   "name": "Doug A."
+  },
+  {
+   "id": "v-davidm",
+   "name": "David M."
+  },
+  {
+   "id": "v-annel",
+   "name": "Anne L."
+  },
+  {
+   "id": "v-michelle",
+   "name": "Michelle"
+  },
+  {
+   "id": "v-rob",
+   "name": "Rob"
+  },
+  {
+   "id": "v-bobw",
+   "name": "Bob W."
+  },
+  {
+   "id": "v-patrickm",
+   "name": "Patrick M."
+  },
+  {
+   "id": "v-mom",
+   "name": "Mo M."
+  },
+  {
+   "id": "v-markn",
+   "name": "Mark N."
+  },
+  {
+   "id": "v-suzannen",
+   "name": "Suzanne N."
+  },
+  {
+   "id": "v-maryb",
+   "name": "Mary B."
+  },
+  {
+   "id": "v-mikem",
+   "name": "Mike M."
+  },
+  {
+   "id": "v-marym",
+   "name": "Mary M."
+  },
+  {
+   "id": "v-boba",
+   "name": "Bob A."
+  },
+  {
+   "id": "v-mikem2",
+   "name": "Mike M."
+  },
+  {
+   "id": "v-toml",
+   "name": "Tom L."
+  },
+  {
+   "id": "v-jodie",
+   "name": "Jodi E."
+  }
  ]
 }
