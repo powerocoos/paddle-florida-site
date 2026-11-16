@@ -68,6 +68,7 @@
   function track(n, d) { try { if (window.gtag) gtag('event', n, d || {}); (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: n }, d || {})); } catch (e) {} }
   function wire() {
     var md = root.querySelector('#pft-md'), box = md.querySelector('.box'), cur = -1, opener = null;
+    var holder = document.createElement('div'); holder.className = 'pft'; holder.style.cssText = 'width:0;height:0;margin:0;overflow:visible;background:none'; holder.appendChild(md); document.body.appendChild(holder);
     var list = [].map.call(root.querySelectorAll('button.p[data-id]'), function (b) { var id = b.getAttribute('data-id'); return P.filter(function (p) { return p.id === id; })[0]; }).filter(Boolean);
     if (!list.length) return;
     function show(i) {
