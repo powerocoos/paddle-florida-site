@@ -14,7 +14,8 @@
    "feature": true,
    "line": "Former Coast Guard search and rescue, and an ACA Level 3 coastal kayaking instructor.",
    "bio": "Janice Hindson is Paddle Florida’s Executive Director. She lives in St. Augustine, Florida and was born and raised near Manchester, England. Her love of the water began while volunteering with her mother for the Royal National Lifeboats. After moving to the states at age eleven, she eventually served in the U.S. Coast Guard, doing search and rescue missions, mostly in the Great Lakes region. She is an ACA Level 3: Coastal Kayaking Instructor and enjoys multi-day self-contained kayak and paddleboard expeditions, mostly on Florida’s rivers and coastal areas, and sometimes around the world. With her BSBA and MBA in hand, she spent 30 years coaching and assisting businesses, including working with non-profits to create strategic plans and raise forgivable debt. She is also a certified support group facilitator and co-chairs the NAMI Family Support Group. Janice has served on various boards including NHS and is the Board Chair of Florida Society for Ethical Eco-tourism.",
-   "feat": "Born near Manchester, England, Janice grew up volunteering with the Royal National Lifeboats, served in the U.S. Coast Guard on search and rescue missions, and now leads Paddle Florida from St. Augustine."
+   "feat": "Born near Manchester, England, Janice grew up volunteering with the Royal National Lifeboats, served in the U.S. Coast Guard on search and rescue missions, and now leads Paddle Florida from St. Augustine.",
+   "quote": "My favorite part of a Paddle Florida trip is watching people who just met on the first day feel like old friends by the last."
   },
   {
    "id": "guerry",
@@ -61,10 +62,12 @@
    "group": "board",
    "name": "Beth Courtright",
    "role": "Board President",
-   "photo": "a611d5eb-88c4-4976-9861-baffb9f66cc8/20230217_135325.jpg",
+   "photo": "repo:team/photos/beth.jpg",
    "pos": "50% 50%",
    "line": "Hooked on Paddle Florida since her first trip, on the Ochlockonee River.",
-   "bio": "Beth grew up in Massachusetts and moved to Florida after completing a BA in Psychology and an AD in Nursing. She opted to retire at the same time as her husband, so that they could spend time together. A love of the outdoors started when she was a Girl Scout. Always ready for camping, kayaking and exploring, she was told by a kayaking friend to take a Paddle Florida trip. Since her first trip on the Ochlockonee River she was hooked. Along with her husband, she volunteers for many worthy environmental organizations, including South Florida Panther Wildlife Refuge, CREW Land and Water Trust, and Florida Paddling Trails Association."
+   "bio": "Beth grew up in Massachusetts and moved to Florida after completing a BA in Psychology and an AD in Nursing. She opted to retire at the same time as her husband, so that they could spend time together. A love of the outdoors started when she was a Girl Scout. Always ready for camping, kayaking and exploring, she was told by a kayaking friend to take a Paddle Florida trip. Since her first trip on the Ochlockonee River she was hooked. Along with her husband, she volunteers for many worthy environmental organizations, including South Florida Panther Wildlife Refuge, CREW Land and Water Trust, and Florida Paddling Trails Association.",
+   "bioPhoto": "a611d5eb-88c4-4976-9861-baffb9f66cc8/20230217_135325.jpg",
+   "bioPos": "50% 50%"
   },
   {
    "id": "stephen",
@@ -81,10 +84,12 @@
    "group": "board",
    "name": "Debra Akin",
    "role": "Board Treasurer",
-   "photo": "f4e4736d-c37a-41bb-aaae-b53f01db3238/my+team+deb.jpg",
-   "pos": "50% 20%",
+   "photo": "repo:team/photos/debra.jpg",
+   "pos": "50% 50%",
    "line": "Cancer researcher, Master Naturalist and Wilderness First Responder.",
-   "bio": "Debra Akin was born and raised in south Florida and started kayaking in the mountains of North Carolina under the dubious tutelage of an older brother. After surviving two summers of his combat whitewater kayaking, she enrolled in the University of Florida and started exploring the calm, peaceful waters and springs of north Florida, and basically never left. With a couple of graduate degrees in Entomology, Microbiology and Epidemiology under her belt, Deb works in UF’s College of Medicine in the area of drug discovery and cancer research. During the summer months, she guides Chicago teenagers in the Boundary Waters Canoe Area for the non-profits Big City Mountaineers and Chicago Voyagers. She is a Master Naturalist, Wilderness First Responder and Treasurer of the Florida Paddling Trails Association. Other interests include weaving, canoe racing and building wood kayaks."
+   "bio": "Debra Akin was born and raised in south Florida and started kayaking in the mountains of North Carolina under the dubious tutelage of an older brother. After surviving two summers of his combat whitewater kayaking, she enrolled in the University of Florida and started exploring the calm, peaceful waters and springs of north Florida, and basically never left. With a couple of graduate degrees in Entomology, Microbiology and Epidemiology under her belt, Deb works in UF’s College of Medicine in the area of drug discovery and cancer research. During the summer months, she guides Chicago teenagers in the Boundary Waters Canoe Area for the non-profits Big City Mountaineers and Chicago Voyagers. She is a Master Naturalist, Wilderness First Responder and Treasurer of the Florida Paddling Trails Association. Other interests include weaving, canoe racing and building wood kayaks.",
+   "bioPhoto": "f4e4736d-c37a-41bb-aaae-b53f01db3238/my+team+deb.jpg",
+   "bioPos": "50% 20%"
   },
   {
    "id": "monelle",
@@ -111,67 +116,111 @@
  "volunteers": [
   {
    "id": "v-douga",
-   "name": "Doug A."
+   "name": "Doug A.",
+   "photo": "3d911758-2f34-40f4-a849-77f20ce70ee0/Doug+Alderson+head+shot.jpg",
+   "crop": [
+    0.57,
+    0.35,
+    2.1
+   ]
   },
   {
    "id": "v-davidm",
-   "name": "David M."
+   "name": "David M.",
+   "photo": "a5d15d26-a92b-4ded-813c-4d5f892609d4/DSCF1894-min.JPG",
+   "crop": [
+    0.5,
+    0.22,
+    4
+   ]
   },
   {
    "id": "v-annel",
-   "name": "Anne L."
+   "name": "Anne L.",
+   "photo": "repo:team/photos/v-anne-l.jpg"
   },
   {
    "id": "v-michelle",
-   "name": "Michelle"
+   "name": "Michelle S."
   },
   {
    "id": "v-rob",
-   "name": "Rob"
+   "name": "Rob S."
   },
   {
    "id": "v-bobw",
-   "name": "Bob W."
+   "name": "Bob W.",
+   "photo": "1587003789430-C0XDJAP8RWU6HZXLZ641/bob.jpg",
+   "crop": [
+    0.51,
+    0.645,
+    1.6
+   ]
   },
   {
    "id": "v-patrickm",
-   "name": "Patrick M."
+   "name": "Patrick M.",
+   "photo": "repo:team/photos/v-patrick-m.jpg"
   },
   {
    "id": "v-mom",
-   "name": "Mo M."
+   "name": "Mo M.",
+   "photo": "75358d06-f912-4d05-9ae7-6b30c7d8e0f1/Monelle+McKay.jpeg",
+   "crop": [
+    0.56,
+    0.5,
+    1.5
+   ]
   },
   {
    "id": "v-markn",
-   "name": "Mark N."
+   "name": "Mark N.",
+   "photo": "1627925588868-93ZKJ0IICKNNS7YW8THN/20210221_121321213_iOS.jpg",
+   "crop": [
+    0.48,
+    0.26,
+    4
+   ]
   },
   {
    "id": "v-suzannen",
-   "name": "Suzanne N."
+   "name": "Suzanne N.",
+   "photo": "repo:team/photos/v-suzanne-n.jpg"
   },
   {
    "id": "v-maryb",
-   "name": "Mary B."
+   "name": "Mary B.",
+   "photo": "052fb67c-728e-4745-9da9-121b2e83898d/IMG_1574.jpeg",
+   "crop": [
+    0.33,
+    0.2,
+    2.4
+   ]
   },
   {
    "id": "v-mikem",
-   "name": "Mike M."
+   "name": "Mike M.",
+   "photo": "repo:team/photos/v-mike-mccarthy.jpg"
   },
   {
    "id": "v-marym",
-   "name": "Mary M."
+   "name": "Mary M.",
+   "photo": "repo:team/photos/v-mary-m.jpg"
   },
   {
    "id": "v-boba",
-   "name": "Bob A."
+   "name": "Bob A.",
+   "photo": "repo:team/photos/v-bob-a.jpg"
   },
   {
    "id": "v-mikem2",
-   "name": "Mike M."
+   "name": "Mike M.",
+   "photo": "repo:team/photos/v-mike-mendez.jpg"
   },
   {
    "id": "v-toml",
-   "name": "Tom L."
+   "name": "Tom L.",
+   "photo": "repo:team/photos/v-tom-l.jpg"
   },
   {
    "id": "v-jodie",
@@ -179,11 +228,23 @@
   },
   {
    "id": "v-bethc",
-   "name": "Beth C."
+   "name": "Beth C.",
+   "photo": "repo:team/photos/beth.jpg"
   },
   {
    "id": "v-johnc",
-   "name": "John C."
+   "name": "John C.",
+   "photo": "5e9ddb6f-03d1-47b4-97ff-146b6fcff89d/john+court.jpeg",
+   "crop": [
+    0.36,
+    0.33,
+    3
+   ]
   }
- ]
+ ],
+ "text": {
+  "heroSub": "We’re glad you’re here. Meet the people who help you feel at home on the water.",
+  "volTitle": "Our Waterway Champions",
+  "volIntro": "Meet the people who help make our trips happen, from camp to the launch ramp."
+ }
 }
