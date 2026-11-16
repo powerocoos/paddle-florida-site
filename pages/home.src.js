@@ -134,8 +134,9 @@
     function playSq(b) {
       var v = document.createElement('video'), url = SQV + 'playlist.m3u8'; v.controls = true; v.autoplay = true; v.playsInline = true; v.title = 'PBS Greater Good: Paddle Florida';
       b.innerHTML = ''; b.appendChild(v); b.onclick = null; track('video_play', { video: 'pbs' });
-      if (v.canPlayType('application/vnd.apple.mpegurl')) { v.src = url; return; }
-      var go = function () { if (window.Hls && Hls.isSupported()) { var h = new Hls(); h.loadSource(url); h.attachMedia(v); } else v.src = url; };
+      var mse = window.MediaSource || window.ManagedMediaSource;
+      if (!mse && v.canPlayType('application/vnd.apple.mpegurl')) { v.src = url; return; }
+      var go = function () { if (window.Hls && Hls.isSupported()) { var h = new Hls(); h.loadSource(url); h.attachMedia(v); h.on(Hls.Events.MANIFEST_PARSED, function () { var pr = v.play(); if (pr && pr.catch) pr.catch(function () {}); }); } else v.src = url; };
       if (window.Hls) return go();
       var sc = document.createElement('script'); sc.src = 'https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js'; sc.onload = go; sc.onerror = function () { b.innerHTML = '<a href="https://www.youtube.com/channel/UCldPSyoslpjWIXkPWDyjIKA" style="color:#fff!important;display:flex;height:100%;align-items:center;justify-content:center">Watch on our video channel</a>'; }; document.head.appendChild(sc);
     }
