@@ -91,7 +91,7 @@
     var exec = P.filter(function (p) { return p.feature; }), board = P.filter(function (p) { return p.group === 'board'; }), staff = P.filter(function (p) { return p.group === 'staff' && !p.feature; });
     var vols = (TEAM.volunteers || []).slice().sort(function (a, b) { return a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }); });
     root.innerHTML = '<style>' + css + '</style><div class="pft"><header class="hero"><div class="w"><h1>Our Team</h1>' + (TX.heroSub ? '<p>' + esc(TX.heroSub) + '</p>' : '') + '</div></header>' +
-      (exec.length ? sec('exec', 'Executive Leadership', exec.map(function (p) { return card(p, 'x'); }).join('')) : '') +
+      (exec.length ? sec('exec', 'Leadership', exec.map(function (p) { return card(p, 'x'); }).join('')) : '') +
       (L.staff && staff.length ? sec('brd', 'Staff', staff.map(function (p) { return card(p); }).join('')) : '') +
       (board.length ? sec('brd', 'Board of Directors', board.map(function (p) { return card(p); }).join('')) : '') +
       (L.exofficio && (TEAM.exofficio || []).length ? sec('vol', 'Ex-officio', TEAM.exofficio.map(function (n) { return card({ name: n }, 'v'); }).join('')) : '') +
