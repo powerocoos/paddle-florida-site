@@ -24,7 +24,8 @@
    "url": "/santa-fe-v2",
    "blurb": "Come celebrate one of Florida’s prettiest rivers, called “Holy Faith” by the Spanish, which lives up to its name with its quiet beauty. The Santa Fe boasts dozens of significant springs, including the celebrated paddleable Santa Fe tributary, the Ichetucknee River.",
    "completed": true,
-   "cardNote": "With optional cabins"
+   "cardNote": "With optional cabins",
+   "liveUrl": "/santa-fe-springs-celebration"
   },
   {
    "id": "keys",
@@ -47,7 +48,8 @@
    "hero": "b29bfa78-3250-44cc-b825-d020b245f514/keys+-+beach+blue+water+paddle+.jpg",
    "url": "/keys-v2",
    "blurb": "Join us for a cold weather escape as we paddle the Florida Keys and explore some of the most beautiful turquoise waters in the State of Florida! This year’s trip includes both short and long paddling options, from our basecamp each day, and an educational component provided by Newfound Harbor Marine Institute.",
-   "cardNote": "All cabin base camp"
+   "cardNote": "All cabin base camp",
+   "liveUrl": "/florida-keys-challenge"
   },
   {
    "id": "blackwater",
@@ -70,7 +72,8 @@
    "hero": "bfa70c35-de88-4b90-b2a5-399525a7b2d4/Blackwater-River.jpg",
    "url": "/blackwater-v2",
    "blurb": "The Blackwater River and Coldwater Creek, its major tributary in Florida, particularly within Blackwater River State Park, is known for its unique contrast of dark, tannic water with pristine, white sandy beaches and large sandbars. Join us as we explore these riverways and Blackwater River State Forest close to Pensacola!",
-   "cardNote": "With some optional cabins"
+   "cardNote": "With some optional cabins",
+   "liveUrl": "/blackwater-river"
   },
   {
    "id": "festival",
@@ -92,7 +95,8 @@
    "note": "",
    "hero": "1cb4511a-d7d8-4b4f-98ff-9e0ccca9affc/FB_IMG_1697418751873.jpg",
    "url": "/festival-v2",
-   "blurb": "With camping atop the bluff overlooking two beautiful rivers, our festival takes place at Suwannee River State Park near Live Oak. The weekend will offer supported paddling options on both the Suwannee and Withlacoochee Rivers, a concert featuring one of Paddle Florida’s favorite musicians, and an educational presentation."
+   "blurb": "With camping atop the bluff overlooking two beautiful rivers, our festival takes place at Suwannee River State Park near Live Oak. The weekend will offer supported paddling options on both the Suwannee and Withlacoochee Rivers, a concert featuring one of Paddle Florida’s favorite musicians, and an educational presentation.",
+   "liveUrl": "/suwannee-river-paddling-festival"
   },
   {
    "id": "wilderness",
@@ -114,7 +118,8 @@
    "note": "",
    "hero": "1596913326206-IZM0DE1ITIU0MO9LFT20/20191021_075212.jpg",
    "url": "/wilderness-trail-v2",
-   "blurb": "Celebrate Florida’s version of spring on its most famous river. The trip spans 63 miles of the scenic Suwannee and a portion of the (northern) Withlacoochee, from Madison Blue Spring to Branford. This section features dozens of clear blue springs perfect for swimming and snorkeling."
+   "blurb": "Celebrate Florida’s version of spring on its most famous river. The trip spans 63 miles of the scenic Suwannee and a portion of the (northern) Withlacoochee, from Madison Blue Spring to Branford. This section features dozens of clear blue springs perfect for swimming and snorkeling.",
+   "liveUrl": "/suwannee-river-wilderness-trail"
   },
   {
    "id": "staug",
@@ -136,7 +141,8 @@
    "note": "",
    "hero": "655f16aa-6de8-4902-a197-e11d03006260/anastasia+beach+sunset.jpg",
    "url": "/st-augustine-v2",
-   "blurb": "Nature lovers and outdoor enthusiasts will find much to appreciate on Florida’s Historic Coast. With miles of protected water, and current and tidal flow to help in any direction, we will paddle to historic sites including downtown Castillo de San Marcos and the Bridge of Lions, Fort Mose, Fort Matanzas National Monument and the St. Augustine Lighthouse, from our home base at Anastasia State Park."
+   "blurb": "Nature lovers and outdoor enthusiasts will find much to appreciate on Florida’s Historic Coast. With miles of protected water, and current and tidal flow to help in any direction, we will paddle to historic sites including downtown Castillo de San Marcos and the Bridge of Lions, Fort Mose, Fort Matanzas National Monument and the St. Augustine Lighthouse, from our home base at Anastasia State Park.",
+   "liveUrl": "/1-st-augustine-history-paddle"
   }
  ]
 }
