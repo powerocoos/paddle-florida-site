@@ -14,7 +14,8 @@
     shirt: 'https://www.bonfire.com/store/paddle-florida/',
     draw: '2027-03-21T12:00:00-04:00',
     phone: '(904) 874-4594', tel: '+19048744594', email: 'janice@paddleflorida.org',
-    news: '#pf-news'
+    news: '#pf-news',
+    spots: 'https://dashboard.paddleflorida.org/public/spots.json'   // open spots, set by Janice in the dashboard Trips tab
   };
   var GAL = ['061a2c3b-ece2-461b-9fef-ba44680b1752/keys+ariel+beach.jpg','2dc63f18-5b6b-4ae6-9113-cfbc438295e8/keys+-+picnic+island.jpg','3d681bd4-3aaf-495e-83e9-82f9c9f58ab1/keys+-+BHSP.jpg','5ba9791d-95c0-4a5c-b685-e022c0ca72d8/keys+beach+and+kayaks.jpg','b4e259d9-1162-475d-9ea3-7acd482f6108/poe-springs-on-the-way-to-santa-fe-river.jpg','43a1a73d-badf-4b60-a143-1eef07748de2/blk+1.jpg','64842f66-51bc-4072-86d5-bd2982b490fb/blackwater-river-state-park.jpg','fae73fb7-91fa-4cfc-a22a-76c6f496bc37/cld+1.jpg'];
   var SQV = 'https://video.squarespace-cdn.com/content/v1/5e975a9523a346285e07042f/f7af00ba-8a46-40e7-9dd4-4b66152ed0ba/';
@@ -24,6 +25,7 @@
   var SUPP = [['Suwannee County','https://visitsuwannee.com/','ca2f8df9-d8e1-44b1-bcec-696bb14a8cd1/unnamed+%2811%29.jpg'],['Navarre Beach','https://www.getrelaxing.com/','1586992647802-X0L7UMO70I4RJVT2NSG3/navarre_logo.png'],['Clay County','http://www.exploreclay.com/','1620090760985-L7G0SX0PQBRQ6KW0P2L2/Clay%2BCounty%2BLogo.png'],['Explore Northwest Florida','https://explorenwflorida.com/','1586992713149-51UAMOKLT0LP4A0HFI6N/explore_northwest_florida_logo_teal.jpg'],['Columbia County','','1630368081307-ZUY98SUC19M3F7NIPBA5/ColumbiaCounty_2015Logo_resize.png']];
   var CERT = [['Florida SEE','https://floridasee.org/','1586992391943-QUBJZ3PMYAKAMC2ZX7SU/rendition.62731_original.jpeg'],['Guardian Guides Manatee Stewardship Program','https://support.savethemanatee.org/site/SPageNavigator/Guardianguides.html','08013e4a-154a-4872-958c-73cec8862ce4/unnamed+%281%29.png']];
   var TRIPS = /*TRIPS*/[];
+  var redraw = null;
 
   var im = function (p) { return CFG.img + p + (p.indexOf('?') > -1 ? '' : '?format=1000w'); };
   var money = function (n) { return '$' + n.toLocaleString('en-US'); };
@@ -129,8 +131,10 @@
   function wire(trips) {
     var F = 'all', tg = root.querySelector('#pf-tg'), so = root.querySelector('#pf-so');
     var fil = function () { return trips.filter(function (t) { return F === 'all' || F === t.status || (F === 'wk' && /two days/.test(t.miles || '')); }); };
+    var draw = function () { var l = fil(); tg.innerHTML = l.length ? l.map(card).join('') : '<p class="meta">No trips match this filter.</p>'; so.innerHTML = soldOutNote(l); };
+    redraw = draw;
     [].forEach.call(root.querySelectorAll('#pf-fl button'), function (b) {
-      b.onclick = function () { F = b.dataset.f; [].forEach.call(root.querySelectorAll('#pf-fl button'), function (x) { x.classList.toggle('on', x === b); }); var l = fil(); tg.innerHTML = l.length ? l.map(card).join('') : '<p class="meta">No trips match this filter.</p>'; so.innerHTML = soldOutNote(l); };
+      b.onclick = function () { F = b.dataset.f; [].forEach.call(root.querySelectorAll('#pf-fl button'), function (x) { x.classList.toggle('on', x === b); }); draw(); };
     });
     /* PBS segment: Squarespace-hosted video (HLS). Safari plays it natively; other browsers load hls.js on first click. */
     function playSq(b) {
@@ -160,6 +164,21 @@
   // fonts
   if (!document.getElementById('pf-fonts')) { var l = document.createElement('link'); l.id = 'pf-fonts'; l.rel = 'stylesheet'; l.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap'; document.head.appendChild(l); }
 
+  /* Open spots: the dashboard feed (set by Janice) overrides the embedded numbers. A 0 shows the trip as sold out.
+     If the feed is unreachable, the numbers embedded from trips.json stay. */
+  function applySpots(d) {
+    if (!d || !d.configured || !d.spots) return false;
+    TRIPS.forEach(function (t) {
+      var v = Object.prototype.hasOwnProperty.call(d.spots, t.id) ? d.spots[t.id] : null;
+      t.spotsLeft = (typeof v === 'number' && v > 0) ? Math.floor(v) : null;
+      if (v === 0 && !t.completed) t.status = 'soldout';
+    });
+    return true;
+  }
   build();
+  if (CFG.spots) {
+    var ctl = window.AbortController ? new AbortController() : null, to = ctl ? setTimeout(function () { ctl.abort(); }, 6000) : 0;
+    fetch(CFG.spots, { mode: 'cors', signal: ctl ? ctl.signal : undefined }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { if (applySpots(d) && redraw) redraw(); }).catch(function () {}).then(function () { if (to) clearTimeout(to); });
+  }
   if (CFG.feed) { fetch(CFG.feed).then(function (r) { return r.json(); }).then(function (d) { if (d && d.trips && d.trips.length) { TRIPS = d.trips; build(); } }).catch(function () {}); }
 })();
