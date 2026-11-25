@@ -2,9 +2,9 @@
  "id": "blackwater",
  "status": "soldout",
  "name": "Blackwater River + Coldwater Creek Experience",
- "dates": "Feb 22–28, 2027",
- "start": "2027-02-22",
- "end": "2027-02-28",
+ "dates": "Feb 21–27, 2028",
+ "start": "2028-02-21",
+ "end": "2028-02-27",
  "place": "Harold to Milton, near Pensacola",
  "startLoc": "Blackwater Joe's, Harold",
  "finishLoc": "Carpenter's Park, Milton",
@@ -41,7 +41,7 @@
  "days": [
   {
    "n": 1,
-   "date": "Mon, Feb 22",
+   "date": "Mon, Feb 21",
    "title": "Arrive and settle in",
    "miles": 0,
    "lunch": "N/A",
@@ -52,7 +52,7 @@
   },
   {
    "n": 2,
-   "date": "Tue, Feb 23",
+   "date": "Tue, Feb 22",
    "title": "Through Blackwater River State Forest",
    "miles": 10,
    "lunch": "On the river (about mile 5)",
@@ -63,7 +63,7 @@
   },
   {
    "n": 3,
-   "date": "Wed, Feb 24",
+   "date": "Wed, Feb 23",
    "title": "To Blackwater River State Park",
    "miles": 10,
    "lunch": "On the river (about mile 5)",
@@ -74,7 +74,7 @@
   },
   {
    "n": 4,
-   "date": "Thu, Feb 25",
+   "date": "Thu, Feb 24",
    "title": "Layover day",
    "miles": 0,
    "optMiles": 8,
@@ -86,7 +86,7 @@
   },
   {
    "n": 5,
-   "date": "Fri, Feb 26",
+   "date": "Fri, Feb 25",
    "title": "To Coldwater Creek",
    "miles": 10,
    "lunch": "On the river (about mile 5)",
@@ -97,7 +97,7 @@
   },
   {
    "n": 6,
-   "date": "Sat, Feb 27",
+   "date": "Sat, Feb 26",
    "title": "South to Bob's Canoe Landing",
    "miles": 12,
    "lunch": "On the river (about mile 6)",
@@ -108,7 +108,7 @@
   },
   {
    "n": 7,
-   "date": "Sun, Feb 28",
+   "date": "Sun, Feb 27",
    "title": "The final stretch to Milton",
    "miles": 7,
    "lunch": "At the finish (Carpenter Park)",

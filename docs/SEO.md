@@ -15,7 +15,7 @@ Applied in Page Settings > SEO when each page replaces its old one. The slug sta
 
 ## Blackwater (/blackwater-river)
 - Title (52): Blackwater River + Coldwater Creek Paddle | Feb 2027
-- Description (131): A 7-day supported paddle from Harold to Milton near Pensacola, Feb 22–28, 2027. Sold out. Join the newsletter for the next opening.
+- Description (131): A 7-day supported paddle from Harold to Milton near Pensacola, Feb 21–27, 2028. Sold out. Join the newsletter for the next opening.
 
 ## Festival (/suwannee-river-paddling-festival)
 - Title (50): Suwannee River Paddling Festival | Mar 19–21, 2027
