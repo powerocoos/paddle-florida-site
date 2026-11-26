@@ -113,15 +113,14 @@
       "adult": 600,
       "senior": 575,
       "capacity": null,
-      "status": "open",
+      "status": "soldout",
       "deadline": "Dec 19, 2026",
       "included": "Camping, catered breakfasts and dinners, daily lunch snacks and evening programs. Two nights at river camps with screened platforms, fans and hot showers.",
       "note": "",
       "hero": "1596913326206-IZM0DE1ITIU0MO9LFT20/20191021_075212.jpg",
       "url": "/wilderness-trail-v2",
       "blurb": "Celebrate Florida’s version of spring on its most famous river. The trip spans 63 miles of the scenic Suwannee and a portion of the (northern) Withlacoochee, from Madison Blue Spring to Branford. This section features dozens of clear blue springs perfect for swimming and snorkeling.",
-      "liveUrl": "/suwannee-river-wilderness-trail",
-      "spotsLeft": 11
+      "liveUrl": "/suwannee-river-wilderness-trail"
     },
     {
       "id": "staug",
